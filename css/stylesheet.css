@@ -32,20 +32,16 @@ input{
     flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: row;
-    align-items: baseline;
-    align-content: stretch;
-    
+    align-content: flex-end;
+    align-items: flex-end;
 }
 
 
-.headerHB p{
-    font-size: 30px;
-    color: black;
+.headerHB {
  }
 
-
 .headerC p{
-    font-size: 30px;
+    font-size: 35px;
     color: black;
 }
 
