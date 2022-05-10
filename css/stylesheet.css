@@ -1,5 +1,5 @@
 /* SCREEN PHONE AND PAD */
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:1300px) {
 
 body{
    font-family: 'object_sansbold';
@@ -88,7 +88,7 @@ nav{
 
 /* SCREEN COMPUTER MIN-800px */
 
-@media only screen and (max-width:800px) {
+@media only screen and (min-width:1300px) {
    
 
     body{
