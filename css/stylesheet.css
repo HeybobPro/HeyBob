@@ -10,6 +10,7 @@ a{
   }
 
 nav{
+   
     top: 1vh;
     position: sticky;
     display: flex;
@@ -85,6 +86,7 @@ nav{
     cursor: pointer;
     font-family: 'object_sansbold';
 }
+
 }
 
 
@@ -106,6 +108,7 @@ nav{
        }
      
      nav{
+        z-index: 100;
          top: 2%;
          position: sticky;
          display: flex;
@@ -296,24 +299,34 @@ nav{
         background-repeat: no-repeat;
         background-image: url("../asset/Inktober.svg");
     }
+
+
 }
 
 
-/*fonts*/
 
-  @font-face {
-    font-family: 'object_sansbold';
-    src: url('fonts/Bold/objectsans-bold-webfont.woff2') format('woff2'),
-         url('fonts/Bold/objectsans-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
-}
+
 
 /*TRANSITION CSS*/
 .revealHR,.revealHL{
     margin: 2%;
 }
+/* VERTICAL TOP */
+/* ____________ */
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+  }
+  
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
 
 /* HORIZONTAL RIGHT */
 /* ________________ */
@@ -342,3 +355,15 @@ nav{
     transform: translateX(0);
     opacity: 1;
   } 
+
+/*fonts*/
+
+  @font-face {
+    font-family: 'object_sansbold';
+    src: url('fonts/Bold/objectsans-bold-webfont.woff2') format('woff2'),
+         url('fonts/Bold/objectsans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
