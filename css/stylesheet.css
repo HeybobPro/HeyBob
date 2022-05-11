@@ -86,7 +86,7 @@ nav{
 
 
 
-/* SCREEN COMPUTER MIN-800px */
+/* SCREEN COMPUTER*/
 
 @media only screen and (min-width:1300px) {
    
@@ -97,7 +97,7 @@ nav{
      }
      
      a{
-         text-decoration: none;
+        text-decoration: none;
        }
      
      nav{
@@ -115,18 +115,24 @@ nav{
      #part1{
         background-image: url("../asset/Beauty2.png");
         background-repeat: no-repeat;
-        background-position: 100% 0%;
+        background-position: 100% -7%;
         background-size: 850px;
     }
-     
-     .headerC p{
-         font-size: 30px;
+
+ 
+     .headerC a,p{
+         font-size: 40px;
          color: black;
          font-family: 'object_sansbold';
      }
-     
+    
+
      #discoveringBox{
-         width: 50%;
+         margin: 0% 7%;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         width: 40%;
      }
      
      
@@ -149,9 +155,9 @@ nav{
      }
 
      #library{
-         background-color: white;
-         margin: 7% 0%;
-         padding: 0% 10%;
+         background-color: rgb(255, 255, 255);
+         margin: 5% 0%;
+         padding: 10% 10% 0% 10%;
          display: flex;
          flex-wrap: wrap;
          flex-direction:row;
@@ -162,16 +168,16 @@ nav{
      }
      
      .blocMenus{
-         font-size: large;
+         font-size: 35px;
          display: flex;
          flex-direction: row;
          align-items: center;
          justify-content: center;
-         margin: 7%;
+         margin: 2%;
          color: black;
          background-color: rgba(199, 199, 199, 0.329);
-         width: 350px;
-         height: 350px;
+         width: 550px;
+         height: 550px;
      }
      
     #propose{
