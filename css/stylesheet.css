@@ -116,7 +116,7 @@ nav{
         background-image: url("../asset/Beauty2.png");
         background-repeat: no-repeat;
         background-position: 100% 0%;
-        background-size: 750px;
+        background-size: 850px;
     }
      
      .headerC p{
@@ -150,7 +150,7 @@ nav{
 
      #library{
          background-color: white;
-         margin: 0% 0%;
+         margin: 7% 0%;
          padding: 0% 10%;
          display: flex;
          flex-wrap: wrap;
