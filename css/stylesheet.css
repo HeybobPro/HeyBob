@@ -2,6 +2,7 @@
 @media only screen and (max-width:1200px) {
 
 body{
+   overflow-x: hidden; 
    font-family: 'object_sansbold';
 }
 
@@ -99,6 +100,7 @@ nav{
    
 
     body{
+       overflow-x: hidden; 
         margin: 0%;
         font-family: 'object_sansbold';
      }
