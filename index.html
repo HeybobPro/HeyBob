@@ -14,20 +14,27 @@
 <!-- NAV BAR  -->
     
 
-        <section id="part1">
+<div id="part1">
             <nav>
-                <div id="headerHB"><a href="./index.html"><img src="asset/logo.svg" alt="HeyBob_Logo" style="width: 160px;"></a></div>
-                <div id="headerC"><a href="./index/contactpage.html"><p>contact</a>&nbsp;&nbsp;&nbsp;©2022</p></div>
+                <div class="container revealLogo">
+                    <div class="container logoScale">
+                        <div id="headerHB"><a href="./index.html"><img src="asset/logo.png" alt="HeyBob_Logo" class="container logoScale"></a></div>
+                    </div>
+                </div>
+                <div class="container revealHR">
+                    <div id="headerC"><a href="./index/contactpage.html"><h1>contact</a>&nbsp;&nbsp;&nbsp;©2022</h1></div>
+                </div>
             </nav>  
          
         <!-- Discovering -->
         <div id="discoveringBox">
+            
             <div id="discover">
                 <p> Visual identity development.</p>
                 <br>
                 <p>I transform your greatest ideas into unique design. Scroll to discover :)</p>
             </div>
-            <br>
+            <br><br><br>
     <div class="container revealHL">
             <div id="infoMore">
                 <p>heybob.pro@gmail.com</p>
@@ -40,32 +47,32 @@
         <!-- Library -->
         
     <div id="library">
-        <div class="container revealHL">
+        <div class="container revealHL" style="margin: 2%;">
             <span class="blocMenus">
                 <p>Logos</p>
             </span>
         </div>
-        <div class="container revealHR">
-            <span class="blocMenus">
+        <div class="container revealHR " style="margin: 2%;">
+            <span class="blocMenus" >
                 <p>Web & App<br>design</p>
             </span>
         </div>
-        <div class="container revealHL">
+        <div class="container revealHL" style="margin: 2%;">
             <span class="blocMenus">
                <p>Illustrations</p>
             </span>
         </div>
-        <div class="container revealHR">
+        <div class="container revealHR" style="margin: 2%;">
             <span class="blocMenus">
                 <p>Communication</p>
             </span>
         </div>
-        <div class="container revealHL">
+        <div class="container revealHL" style="margin: 2%;">
             <span class="blocMenus">
                 <p>Motions design</p>
             </span>
         </div>
-        <div class="container revealHR">
+        <div class="container revealHR" style="margin: 2%;">
             <span class="blocMenus">
                 <p>Print & Layout</p>
             </span>
@@ -73,12 +80,18 @@
     </div>
     
         <!-- Propose More -->
-        <div class="container revealHR">
+        
         <section id="propose">
-            <div id="lpropose">
+       
+        <div id="lpropose">
+        <div class="container revealHL">
             <p>You've reach the end that can</p><br><br>
+        </div>
+        <div class="container revealHL">
             <input type="button" value="Click here for more :)" href="#index/contactpage.html">
-            </div>
+        </div>
+        </div>
+            <div class="container revealHR">
             <section id="newProject">
                 <!-- New Project 1 -->
                 <div id="newContent_id1">
@@ -93,20 +106,54 @@
                     <div id="overlay3"><p>Inktober</p></div>
                 </div>
             </section>
-        </section>
-    </div>
-</section>   
+            </div>
+        </section>  
 </div>
 </main>
 <!-- Animations_JS -->    
 <script>
+    function transitionLogoScale() {
+    var reveals = document.querySelectorAll(".logoScale");
+    var posMax = document.getElementById("discoveringBox")
+
+
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight; /* innerHeight = renvoi la hauteur d'ou est la fen */
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 1;
+  
+      if (  elementTop += elementVisible ) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+    }
+
+    function transitionLogo() {
+    var reveals = document.querySelectorAll(".revealLogo");
+  
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 170;
+  
+      if (elementTop < elementVisible) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+  }
+
+  
 function reveal() {
     var reveals = document.querySelectorAll(".reveal");
   
     for (var i = 0; i < reveals.length; i++) {
       var windowHeight = window.innerHeight;
       var elementTop = reveals[i].getBoundingClientRect().top;
-      var elementVisible = 150;
+      var elementVisible = 170;
   
       if (elementTop < windowHeight - elementVisible) {
         reveals[i].classList.add("active");
@@ -137,7 +184,7 @@ function reveal() {
       for (var i = 0; i < reveals.length; i++) {
         var windowHeight = window.innerHeight;
         var elementTop = reveals[i].getBoundingClientRect().top;
-        var elementVisible = 170;
+        var elementVisible = 200;
     
         if (elementTop < windowHeight - elementVisible) {
           reveals[i].classList.add("active");
@@ -146,8 +193,8 @@ function reveal() {
         }
       }
     }
-
-    
+      window.addEventListener("scroll",transitionLogoScale);
+      window.addEventListener("load", transitionLogo);
       window.addEventListener("scroll", revealHR);
       window.addEventListener("scroll", revealHL);
       window.addEventListener("scroll", reveal);

@@ -1,8 +1,11 @@
+
+*{
+    scroll-behavior: smooth;
+}
 /* SCREEN PHONE AND PAD */
 @media only screen and (max-width:1200px) {
 
 body{
-   overflow-x: hidden; 
    font-family: 'object_sansbold';
 }
 
@@ -100,7 +103,7 @@ nav{
    
 
     body{
-       overflow-x: hidden; 
+        overflow-x: hidden; 
         margin: 0%;
         font-family: 'object_sansbold';
      }
@@ -110,27 +113,37 @@ nav{
        }
      
      nav{
+        mix-blend-mode: luminosity,rgb(255, 255, 255);
+        margin: 2% -2%;
         z-index: 100;
-         top: 2%;
-         position: sticky;
+        top: 2%;
+        position: sticky;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-around;
+        align-items: center;
+     }
+     nav p{
+        mix-blend-mode: luminosity;
+    }
+
+     #container{
          display: flex;
-         flex-direction: row;
-         flex-wrap: wrap;
-         align-content: stretch;
-         justify-content: space-around;
-         align-items: center;
+         flex-direction: column;
+         justify-content: center;
      }
 
      #part1{
         background-image: url("../asset/Beauty2.png");
         background-repeat: no-repeat;
-        background-position: 100% 0%;
-        background-size: 800px;
+        background-position: 100% -7%;
+        background-size: 48%;
     }
-
  
      #headerC a,
-     #headerC p{
+     #headerC h1{
          mix-blend-mode: luminosity;
          font-size: 40px;
          color: black;
@@ -139,7 +152,7 @@ nav{
     
 
      #discoveringBox{
-         margin: 0% 7%;
+         margin: 5% 6% 14% 16%;
          display: flex;
          flex-direction: column;
          justify-content: center;
@@ -148,28 +161,30 @@ nav{
      
      
      #discover {
-         font-family: 'object_sansbold';
+         width: 70%;
+         font-family: 'object_sansregular';
          display: flex;
          flex-direction: row;
          flex-wrap: wrap;
-         margin: 12% 10% 0% 10%;
          font-size: 35px;
      }
      
      #infoMore{
-         margin: 20% 0% 0% 0%;
-         text-align: center;
+         margin: 5% 0% 0% 0%;
          font-size: 20px;
          display: flex;
          flex-direction: column;
-         flex-wrap: wrap;
+         flex-wrap: nowrap;
          justify-content: flex-start;
+         font-family: 'object_sansregular';
+         align-items: flex-start;
+         align-content: flex-start;
      }
 
      #library{
          background-color: rgb(255, 255, 255);
-         margin: 3% 0% 0% 0%;
-         padding: 5% 10% 0% 10%;
+         margin: 2% 0% 0% 0%;
+         padding: 0% 10% 0% 10%;
          display: flex;
          flex-wrap: wrap;
          flex-direction:row;
@@ -196,11 +211,12 @@ nav{
         background-image: url("../asset/heart.png");
         background-repeat: no-repeat;
         background-position: 80% 0%;
-        margin: 0% 0% 0% 7%;
+        margin: 0% 0% 0% 0%;
          font-size: 35px;
          display: flex;
          flex-direction: column;
          flex-wrap: wrap;
+         align-content: space-around;
          justify-content: center;
      }
     
@@ -234,7 +250,7 @@ nav{
         background-color: rgba(255, 255, 255, 0);
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
         flex-wrap: nowrap;
     }
 
@@ -305,15 +321,40 @@ nav{
 
 }
 
+/* PART ANIMATION */
+
+.logoScale img{
+    width: 250px;
+    transition: 1s all ease;
+  }
+  
+.logoScale img.active{
+    width: 150px;
+    
+  } 
 
 
 
+/* TRANSITION LOGO */
+.revealLogo{
+    transform: translateX(-600px);
+    width: 1%;
+    transition: 1s all ease;
+  }
+  
+.revealLogo.active{
+    transform: translateY(0);
+    width: 14%;
+  } 
 
 
-/*TRANSITION CSS*/
-.revealHR,.revealHL{
+/*TRANSITION SECTION ET TEXTE*/
+
+.revealHR .blocMenus, .blocMenus{
     margin: 2%;
 }
+
+
 /* VERTICAL TOP */
 /* ____________ */
 
@@ -359,6 +400,17 @@ nav{
   } 
 
 /*fonts*/
+
+@font-face {
+    font-family: 'object_sansregular';
+    src: url('fonts/Regular/objectsans-regular-webfont.woff2') format('woff2'),
+         url('fonts/Regular/objectsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 
   @font-face {
     font-family: 'object_sansbold';
