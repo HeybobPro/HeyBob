@@ -113,8 +113,8 @@ nav{
        }
      
      nav{
-        mix-blend-mode: luminosity;
-        margin: 0vh -1vw 0vh 0vw;
+        mix-blend-mode: normal;
+        margin: 0vh 0vw 0vh 0vw;
         z-index: 100;
         top: 2%;
         position: sticky;
@@ -126,6 +126,7 @@ nav{
         align-items: center;
      }
      nav p{
+        z-index: 100;
         mix-blend-mode: luminosity;
     }
 
@@ -146,6 +147,7 @@ nav{
     }
 
     #headerHB img{
+        z-index: 100;
         cursor: default;
         display: flex;
         flex-direction: row;
@@ -153,6 +155,7 @@ nav{
  
      #headerC a,
      #headerC h1{
+        z-index: 100;
         cursor: default;
          mix-blend-mode: luminosity;
          font-size: 40px;
@@ -473,9 +476,9 @@ nav{
   .animate-bottom {
     position: relative;
     -webkit-animation-name: animatebottom;
-    -webkit-animation-duration: 0.3s;
+    -webkit-animation-duration: 0.5s;
     animation-name: animatebottom;
-    animation-duration: 0.3s
+    animation-duration: 0.5s
   }
   
   @-webkit-keyframes animatebottom {
