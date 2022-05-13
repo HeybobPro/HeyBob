@@ -93,7 +93,8 @@ nav{
 }
 
 
-
+/* _________________________________________________________________________________________________________________ */
+/* _________________________________________________________________________________________________________________ */
 
 /* vers. SCREEN COMPUTER */
 /* 11/05/2022 */
@@ -144,13 +145,15 @@ nav{
         background-size: 850px;
     }
 
-    #headerHB {
+    #headerHB img{
+        cursor: default;
         display: flex;
         flex-direction: row;
     }
  
      #headerC a,
      #headerC h1{
+        cursor: default;
          mix-blend-mode: luminosity;
          font-size: 40px;
          color: black;
@@ -429,10 +432,15 @@ nav{
 
 #loader {
     
+    text-align: center;
+  
+  
+}
+#content_loader{
+    
     font-size: 50px;
     color: rgb(255, 252, 80);
     position: absolute;
-    text-align: center;
     left: 50%;
     top: 50%;
     z-index: 1;

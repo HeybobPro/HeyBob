@@ -7,10 +7,15 @@
     <link as="image" rel="stylesheet" href="css/stylesheet.css">
     <title>HeyBob</title>
     
-
+<!-- 
+  -Creator : Léo Gauthier de porry
+  -Proprety : HeyBob 
+  -Create : 09/05/22
+  -Last modif : 13/05/22 17h37
+-->
 </head>
 <body onload="myFunction()" style="margin:0;">
-<div id="loader"><p>0.5</p><div id="content_loader"><p><u>HeyBob<br>13/05/22</u></p></div></div>
+<div id="loader"><p>VERS 0.5</p><br><p>HEYBOB</p><div id="content_loader"></div></div>
 <div style="display:none;" id="myDiv" class="animate-bottom">
 <div id="container">
 <div id="part1">
@@ -215,29 +220,35 @@ function reveal() {
 <!-- Animation Loader -->
 <script>
       
-  /* function work() { 
-     }
+/*    function work() { 
+      
+  }
   
   if (document.readyState == 'loading') {
   
     // en cours de chargement, attendez l'événement
-  
+   
     document.addEventListener('DOMContentLoaded', work);
   } else {
     // DOM est prêt!
     work();
   }
-   */
-  var myVar;
+  */
+   var myVar;
   function myFunction() {
-    document.getElementById("loader").style.display = "block";
+     document.getElementById("loader").style.display = "block";
+     
           myVar = setTimeout(showPage, 4000);
         }
         
   function showPage() {
-    document.getElementById("loader").style.display = "none";
-    document.getElementById("myDiv").style.display = "block";
-        }
+
+    if(document.readyState == 'complete'){
+
+   document.getElementById("loader").style.display = "none";
+   document.getElementById("myDiv").style.display = "block";
+    }      
+  }
             </script>
 </body>
 </html>
