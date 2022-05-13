@@ -3,7 +3,7 @@
     scroll-behavior: smooth;
 }
 /* SCREEN PHONE AND PAD */
-@media only screen and (max-width:1555px) {
+@media only screen and (max-width:1355px) {
 
 body{
    font-family: 'object_sansbold';
@@ -14,7 +14,6 @@ a{
   }
 
 nav{
-   
     top: 1vh;
     position: sticky;
     display: flex;
@@ -48,7 +47,7 @@ nav{
 }
 
 #infoMore{
-    margin: 7%;
+    margin: 15% 0% 0% 0%;
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -99,7 +98,7 @@ nav{
 /* vers. SCREEN COMPUTER */
 /* 11/05/2022 */
 
-@media only screen and (min-width:1555px) {
+@media only screen and (min-width:1355px) {
    
 
     body{
@@ -113,8 +112,8 @@ nav{
        }
      
      nav{
-        mix-blend-mode: luminosity,rgb(255, 255, 255);
-        margin: 0vh 0vw;
+        mix-blend-mode: luminosity;
+        margin: 0vh -1vw 0vh 0vw;
         z-index: 100;
         top: 2%;
         position: sticky;
@@ -126,7 +125,6 @@ nav{
         align-items: center;
      }
      nav p{
-        padding: 5% 5%;
         mix-blend-mode: luminosity;
     }
 
@@ -142,7 +140,7 @@ nav{
         background-attachment: fixed;
         background-image: url("../asset/Beauty2.png");
         background-repeat: no-repeat;
-        background-position: 100% 0%;
+        background-position: 110% 0%;
         background-size: 850px;
     }
 
@@ -203,6 +201,9 @@ nav{
          align-content: space-around;
 
      }
+     #library a{
+         cursor: default;
+     }
      
      .blocMenus{
          font-size: 35px;
@@ -253,6 +254,11 @@ nav{
          cursor: pointer;
          font-family: 'object_sansbold';
      }
+     #propose input:hover {
+         transform: scale(1.1);
+         background-color: #FF0045;
+     }
+
 
      /* NEW PROJECT HERE */
     /* New Feature can modified ..*/
@@ -290,6 +296,9 @@ nav{
         background-repeat: no-repeat;
         background-image: url("../asset/UrbanIndex.svg");
     }
+    #newContent_id1:hover{
+        transform: scale(1.1);
+    }
     /* CONTENT 2 */
     #overlay2{
         display: flex;
@@ -305,9 +314,12 @@ nav{
         height: 400px;
         width: 400px;
         background-size: 100%;
-        background-color: #F93400;
+       /*  background-color: #F93400; */
         background-repeat: no-repeat;
         background-image: url("../asset/Anon\'igme.svg");
+    }
+    #newContent_id2:hover{
+        transform: scale(1.1);
     }
 
     /* CONTENT 3 */
@@ -327,6 +339,9 @@ nav{
         background-size: 100%;
         background-repeat: no-repeat;
         background-image: url("../asset/Inktober.svg");
+    }
+    #newContent_id3:hover{
+        transform: scale(1.1);
     }
 
 
@@ -410,6 +425,69 @@ nav{
     opacity: 1;
   } 
 
+/* LOADER */
+
+#loader {
+    
+    font-size: 50px;
+    color: rgb(255, 252, 80);
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    margin: -76px 0 0 -76px;
+    border: 16px solid #f2f547;
+     border-radius: 50%;
+    border-top: 16px solid #ffffff;
+    border-bottom: 16px solid #ffffff;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+
+
+/* UP LOADER */
+  .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 0.3s;
+    animation-name: animatebottom;
+    animation-duration: 0.3s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+  
+  #myDiv {
+    z-index: 999999999;
+    display: none;
+  }
+
+
+
+  
 /*fonts*/
 
 @font-face {

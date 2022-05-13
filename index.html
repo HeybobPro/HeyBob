@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/stylesheet.css">
+    <link as="image" rel="stylesheet" href="css/stylesheet.css">
     <title>HeyBob</title>
     
 
 </head>
-<body>
+<body onload="myFunction()" style="margin:0;">
+<div id="loader"><p>0.5</p><div id="content_loader"><p><u>HeyBob<br>13/05/22</u></p></div></div>
+<div style="display:none;" id="myDiv" class="animate-bottom">
 <div id="container">
-
-    
-
 <div id="part1">
     <!-- Nav Bar  -->
             <nav>
@@ -49,34 +48,34 @@
         
     <div id="library">
         <div class="container revealHL" style="margin: 2%;">
-            <span class="blocMenus">
+            <a href="./index/Logos.html"><span class="blocMenus">
                 <p>Logos</p>
-            </span>
+            </span></a>
         </div>
         <div class="container revealHR " style="margin: 2%;">
-            <span class="blocMenus" >
+          <a href="./index/web&appdesign.html"><span class="blocMenus" >
                 <p>Web & App<br>design</p>
-            </span>
+            </span></a>
         </div>
         <div class="container revealHL" style="margin: 2%;">
-            <span class="blocMenus">
+          <a href="./index/illustrations.html"><span class="blocMenus">
                <p>Illustrations</p>
-            </span>
+            </span></a>
         </div>
         <div class="container revealHR" style="margin: 2%;">
-            <span class="blocMenus">
+          <a href="./index/communication.html"><span class="blocMenus">
                 <p>Communication</p>
-            </span>
+            </span></a>
         </div>
         <div class="container revealHL" style="margin: 2%;">
-            <span class="blocMenus">
+          <a href="./index/motionsdesign.html"><span class="blocMenus">
                 <p>Motions design</p>
-            </span>
+            </span></a>
         </div>
         <div class="container revealHR" style="margin: 2%;">
-            <span class="blocMenus">
+          <a href="./index/print&layout.html"><span class="blocMenus">
                 <p>Print & Layout</p>
-            </span>
+            </span></a>
         </div>
     </div>
     
@@ -89,28 +88,40 @@
             <p>You've reach the end that can</p><br><br>
         </div>
         <div class="container revealHL">
-            <input type="button" value="Click here for more :)" href="#index/contactpage.html">
+            <input type="button" value="Click here for more :)" onclick="window.location.href = './index/contactpage.html';">
         </div>
         </div>
-            <div class="container revealHR">
+            
             <section id="newProject">
                 <!-- New Project 1 -->
+                
                 <div id="newContent_id1">
+                  <div class="container revealHL">
                     <div id="overlay1"><p>Urban index</p></div>
+                  </div>
                 </div>
                 <!-- New Project 2 -->
                 <div id="newContent_id2">
+                  <div class="container revealHL">
                     <div id="overlay2"><p>Anon'igme</p></div>
+                  </div>
                 </div>
                 <!-- New Project 3 -->
+                <div class="container revealHR">
+                  
                 <div id="newContent_id3">
+                  <div class="container revealHL">
                     <div id="overlay3"><p>Inktober</p></div>
+                  </div>
+                </div>
                 </div>
             </section>
-            </div>
         </section>  
 </div>
 </main>
+</div>
+</div>
+
 <!-- Animations_JS -->    
 <script>
     function transitionLogoScale() {
@@ -200,5 +211,33 @@ function reveal() {
       window.addEventListener("scroll", revealHL);
       window.addEventListener("scroll", reveal);
 </script>
+
+<!-- Animation Loader -->
+<script>
+      
+  /* function work() { 
+     }
+  
+  if (document.readyState == 'loading') {
+  
+    // en cours de chargement, attendez l'événement
+  
+    document.addEventListener('DOMContentLoaded', work);
+  } else {
+    // DOM est prêt!
+    work();
+  }
+   */
+  var myVar;
+  function myFunction() {
+    document.getElementById("loader").style.display = "block";
+          myVar = setTimeout(showPage, 4000);
+        }
+        
+  function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("myDiv").style.display = "block";
+        }
+            </script>
 </body>
 </html>

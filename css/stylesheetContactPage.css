@@ -2,7 +2,7 @@
 
     body{
         margin: 0%;
-        font-family: 'object_sansbold';
+        font-family: 'object_sansregular';
      }
      
      a{
@@ -54,7 +54,7 @@
 
     body{
         margin: 0%;
-        font-family: 'object_sansbold';
+        font-family: 'object_sansregular';
      }
      
      a{
@@ -103,6 +103,15 @@
 
 }
 /*fonts*/
+@font-face {
+    font-family: 'object_sansregular';
+    src: url('fonts/Regular/objectsans-regular-webfont.woff2') format('woff2'),
+         url('fonts/Regular/objectsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 @font-face {
     font-family: 'object_sansbold';
