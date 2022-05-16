@@ -2,13 +2,8 @@
 /* SCREEN PHONE AND PAD */
 @media only screen and (max-width:425px) {
 
-    html {
-        box-sizing: border-box;
-        }
+   
         
-    *, *:before, *:after {
-        box-sizing: inherit;
-        }
     body{
         display:inline-block;
         overflow-x: hidden;
@@ -22,7 +17,7 @@
        }
      
      nav{
-        margin: 5% 15% 0% 15%;
+        margin: 0% 15% 0% 15%;
         mix-blend-mode: normal;
         z-index: 100;
         top: 2%;
@@ -34,10 +29,7 @@
      }
 
      #container{
-         margin: 0% 0%;
-         display: flex;
-         flex-direction: column;
-         justify-content: space-around;
+        box-sizing: content-box;
      }
 
      #part1{
