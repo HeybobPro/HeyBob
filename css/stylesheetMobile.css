@@ -17,10 +17,10 @@
        }
      
      nav{
-        margin: 0% 15% 0% 15%;
+        margin: 0% 0% 10% 16%;
         mix-blend-mode: normal;
         z-index: 100;
-        top: 2%;
+        top: 3%;
         position: sticky;
         display: flex;
         flex-direction: column;
@@ -41,7 +41,7 @@
      }
 
     #headerHB img{
-        margin: 5% 0% 0% 5%;
+        margin: 0% 0% 0% 5%;
         z-index: 100;
         cursor: default;
         display: flex;
@@ -95,8 +95,7 @@
 
     #library{
         position: relative;
-        margin: 10% 0% 0% 0%;
-        padding: 20% 0% 0% 0%;
+        padding: 10% 0% 0% 0%;
         background-color: rgb(255, 255, 255);
         font-size: 16px;
         display: flex;
@@ -110,6 +109,7 @@
     #library a{
         cursor: default;
     }
+
     .blocMenus{
         display: flex;
         flex-direction: row;
@@ -245,15 +245,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 /* LOADER */
     
      #loader {
@@ -306,7 +297,6 @@
     z-index: 999999999;
     display: none;
   }
-
 
 
 /* LOADER */
