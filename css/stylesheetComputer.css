@@ -9,7 +9,8 @@
    
 
     body{
-        overflow-x: hidden; 
+        display:inline-block;
+        overflow-x: hidden;
         margin: 0%;
         font-family: 'object_sansbold';
      }
@@ -19,17 +20,17 @@
        }
      
      nav{
-        mix-blend-mode: normal;
-        margin: 0vh 0vw 0vh 0vw;
-        z-index: 100;
-        top: 2%;
-        position: sticky;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: space-around;
-        align-items: center;
+      padding: 3% 0% 3% 0%;
+      margin: 0% 16% 10% 16%;
+      mix-blend-mode: normal;
+      z-index: 100;
+      top: 3%;
+      position: sticky;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
      }
      nav p{
         z-index: 100;
@@ -82,6 +83,11 @@
   } 
 
   /* __________________________ */
+    #headerC{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
 
      #headerC a,
      #headerC h1{
@@ -95,7 +101,7 @@
     
 
      #discoveringBox{
-         margin: 5% 0% 15% 17%;
+         margin: 0% 0% 15% 16%;
          display: flex;
          flex-direction: column;
          justify-content: center;

@@ -17,15 +17,17 @@
        }
      
      nav{
-        margin: 0% 0% 10% 16%;
-        mix-blend-mode: normal;
-        z-index: 100;
-        top: 3%;
-        position: sticky;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: flex-start;
+      padding: 3% 0% 3% 0%;
+      margin: 0% 16% 10% 16%;
+      mix-blend-mode: normal;
+      z-index: 100;
+      top: 3%;
+      position: sticky;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-end;
      }
 
      #container{
@@ -58,10 +60,26 @@
     .logoScale img.active{
     width: 100px;
     
-    } 
-    #headerC a,
-    #headerC h1{
-        display: none;
+    }
+    
+    #headerC{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+      }
+      #headerC a,
+      #headerC h1{
+        margin: 0% 0%;
+         z-index: 100;
+         cursor: default;
+          mix-blend-mode: luminosity;
+          font-size: 27px;
+          color: black;
+          font-family: 'object_sansbold';
+      }
+    #headerC h2{
+        margin: 0%;
+        font-size: 13px;
     }
     #discoveringBox{
         
