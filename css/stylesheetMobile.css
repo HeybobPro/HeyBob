@@ -45,7 +45,7 @@
         background-image: url("../asset/Beauty2.png");
         background-repeat: no-repeat;
         background-position: 100% 0%;
-        background-size: 110%;
+        background-size: 120%;
      }
 
     #headerHB img{
@@ -102,6 +102,7 @@
     }
 
     #library{
+        position: relative;
         margin: 10% 0% 0% 0%;
         padding: 20% 0% 0% 0%;
         background-color: rgb(255, 255, 255);
