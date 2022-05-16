@@ -1,10 +1,16 @@
-*{
-    scroll-behavior: smooth;
-}
+
 /* SCREEN PHONE AND PAD */
 @media only screen and (max-width:500px) {
 
+    html {
+        box-sizing: border-box;
+        }
+        
+    *, *:before, *:after {
+        box-sizing: inherit;
+        }
     body{
+        display:inline-block;
         overflow-x: hidden;
         margin: 0%;
         font-family: 'object_sansregular';
@@ -371,7 +377,7 @@
 
 
 /* UP LOADER */
-  .animate-bottom {
+/*   .animate-bottom {
     position: relative;
     -webkit-animation-name: animatebottom;
     -webkit-animation-duration: 0.5s;
@@ -389,7 +395,7 @@
     to{ bottom:0; opacity:1 }
   }
   
-  
+   */
 
 /*FONTS*/
 
