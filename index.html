@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link as="image" rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/stylesheetComputer.css">
+    <link rel="stylesheet" href="css/stylesheetMobile.css">
     <title>HeyBob</title>
     
 <!-- 
@@ -13,7 +14,7 @@
   -Create : 09/05/22
   -Last modif : 13/05/22 17h37
 -->
-</head>
+</head> 
 <body onload="myFunction()" style="margin:0;">
 <div id="loader"><p>VERS 0.5</p><br><p>HEYBOB</p><div id="content_loader"></div></div>
 <div style="display:none;" id="myDiv" class="animate-bottom">
@@ -101,24 +102,16 @@
                 <!-- New Project 1 -->
                 
                 <div id="newContent_id1">
-                  <div class="container revealHL">
-                    <div id="overlay1"><p>Urban index</p></div>
-                  </div>
+                    <div id="overlay1"><div class="container revealHL"><p>Urban index</p></div></div>
                 </div>
                 <!-- New Project 2 -->
                 <div id="newContent_id2">
-                  <div class="container revealHL">
-                    <div id="overlay2"><p>Anon'igme</p></div>
-                  </div>
+                    <div id="overlay2"><div class="container revealHL"><p>Anon'igme</p></div></div>
                 </div>
                 <!-- New Project 3 -->
-                <div class="container revealHR">
                   
                 <div id="newContent_id3">
-                  <div class="container revealHL">
-                    <div id="overlay3"><p>Inktober</p></div>
-                  </div>
-                </div>
+                    <div id="overlay3"><div class="container revealHL"><p>Inktober</p></div></div>
                 </div>
             </section>
         </section>  
@@ -243,7 +236,7 @@ function reveal() {
   function myFunction() {
      document.getElementById("loader").style.display = "block";
      
-          myVar = setTimeout(showPage, 4000);
+          myVar = setTimeout(showPage, 10);
         }
         
   function showPage() {
@@ -251,6 +244,18 @@ function reveal() {
    document.getElementById("myDiv").style.display = "block";
     }      
   
-            </script>
+    </script>
+    <!-- Off Scroll X -->
+    <script>
+    function nonScroll()
+    { 
+  scrollGauche = window.pageXOffset;
+  window.onscroll = function() 
+{ 
+  window.scrollTo(scrollGauche); 
+}; 
+} 
+nonScroll();
+    </script>
 </body>
 </html>
