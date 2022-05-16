@@ -16,17 +16,15 @@
        }
      
      nav{
+        margin: 5% 15% 0% 15%;
         mix-blend-mode: normal;
         z-index: 100;
         top: 2%;
-        left: -5%;
         position: sticky;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        align-content: flex-start;
+        align-items: flex-start;
      }
 
      #container{
@@ -40,7 +38,7 @@
         background-attachment: fixed;
         background-image: url("../asset/Beauty2.png");
         background-repeat: no-repeat;
-        background-position: 90% 0%;
+        background-position: 100% 0%;
         background-size: 140%;
      }
 
@@ -65,13 +63,7 @@
     } 
     #headerC a,
     #headerC h1{
-        visibility: hidden;
-        z-index: 100;
-        cursor: default;
-         mix-blend-mode: luminosity;
-         font-size: 22px;
-         color: black;
-         font-family: 'object_sansbold';
+        display: none;
     }
     #discoveringBox{
         margin: 5% 0% 20% 17%;
