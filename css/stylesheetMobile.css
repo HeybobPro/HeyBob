@@ -41,7 +41,7 @@
      }
 
     #headerHB img{
-        margin: 0% 0% 0% 5%;
+        margin: 10% 0% 10% 5%;
         z-index: 100;
         cursor: default;
         display: flex;
@@ -64,16 +64,17 @@
         display: none;
     }
     #discoveringBox{
+        
         margin: 5% 0% 20% 16%;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 40%;
+        width: 50%;
+        height: 100%;
     }
     
     
     #discover {
-        width: 70%;
         font-family: 'object_sansregular';
         display: flex;
         flex-direction: row;
@@ -95,7 +96,7 @@
 
     #library{
         position: relative;
-        padding: 10% 0% 0% 0%;
+        margin: 10% 0% 0% 0%;
         background-color: rgb(255, 255, 255);
         font-size: 16px;
         display: flex;
