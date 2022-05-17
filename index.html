@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/stylesheetComputer.css">
+    <link rel="stylesheet" href="css/stylesheetLaptop.css">
     <link rel="stylesheet" href="css/stylesheetMobile.css">
     <title>HeyBob</title>
     
@@ -16,7 +17,7 @@
 -->
 </head> 
 <body onload="myFunction()" style="margin:0;">
-<div id="loader"><p>VERS 0.5</p><br><p>HEYBOB</p><div id="content_loader"></div></div>
+<div id="loader"><p>VERS 0.7</p><br><p>HEYBOB</p><div id="content_loader"></div></div>
 <div style="display:none;" id="myDiv" class="animate-bottom">
 <div id="container">
 <div id="part1">
@@ -236,7 +237,7 @@ function reveal() {
   function myFunction() {
      document.getElementById("loader").style.display = "block";
      
-          myVar = setTimeout(showPage, 10);
+          myVar = setTimeout(showPage, 1000);
         }
         
   function showPage() {

@@ -1,6 +1,5 @@
-
-/* Screen phone L*/
-@media only screen and (max-width:425px) {
+/* SCREEN LAPTOP */
+@media only screen and (max-width:1024px) {
 
    
         
@@ -38,8 +37,8 @@
         background-attachment: fixed;
         background-image: url("../asset/Beauty2.png");
         background-repeat: no-repeat;
-        background-position: 60% 0%;
-        background-size: 160%;
+        background-position: 100% 0%;
+        background-size: 100%;
      }
 
     #headerHB img{
@@ -53,12 +52,12 @@
     /* PART ANIMATION */
 
     .logoScale img{
-    width: 150px;
+    width: 175px;
     transition: 1s all ease;
   }
   
     .logoScale img.active{
-    width: 100px;
+    width: 125px;
     
     }
     
@@ -73,7 +72,7 @@
          z-index: 100;
          cursor: default;
           mix-blend-mode: luminosity;
-          font-size: 27px;
+          font-size: 35px;
           color: black;
           font-family: 'object_sansbold';
       }
@@ -87,8 +86,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 50%;
-        height: 100%;
+        width: 45%;
     }
     
     
@@ -97,6 +95,7 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        width: 45%;
         font-size: 19px;
         margin: 0% 0% 5% 0%;
     }
@@ -134,11 +133,11 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        margin: 2%;
+        margin: 5%;
         color: black;
         background-color: rgba(199, 199, 199, 0.329);
-        width: 145px;
-        height: 145px;
+        width: 175px;
+        height: 175px;
     }
     
    #propose{
@@ -186,7 +185,7 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
 
 
@@ -299,16 +298,15 @@
         
 
   /* TRANSITION LOGO */
-  .revealLogo{
-    transform: translateX(-600px);
+ /*   .revealLogo{
     width: 1%;
     transition: 1s all ease;
-  }
+  } */
   
-.revealLogo.active{
+/* .revealLogo.active{
     transform: translateY(0);
     width: 14%;
-  } 
+  }  */
 
 /* PART ANIMATION */
 
@@ -378,3 +376,4 @@
 
 }
 }
+
