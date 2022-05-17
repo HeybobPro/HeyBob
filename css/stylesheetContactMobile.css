@@ -1,0 +1,76 @@
+@media only screen and (max-width:425px) {
+
+         
+         a{
+             color: black;
+            text-decoration: none;
+           }
+        h2{
+            font-size: 35px;
+        } 
+        #container{
+            background-image: url("../asset/eyes.png");
+            background-size: 850px;
+            background-repeat: no-repeat;
+            background-position: 0% 50%;
+            font-family: 'object_sansregular';
+        }
+    
+        #header{
+            margin: 5%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-content: flex-start;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        }
+    
+        /* HeyBob */
+        #headerHB img{
+            z-index: 100;
+            cursor: default;
+            display: flex;
+            flex-direction: row;
+            width: 225px;
+        }
+        #part1{
+            width: 55%;
+        }
+        #part1 p{
+           width: 90vw;
+            margin: 1%;
+            font-size: 20px;
+        }
+    
+        /* Contact */
+    
+        #part2{
+            font-size: 10px;
+        }
+        /* 2022 */
+    
+        #part3{
+            font-size: 10px;
+        }
+    }    
+    
+    /*fonts*/
+    @font-face {
+        font-family: 'object_sansregular';
+        src: url('fonts/Regular/objectsans-regular-webfont.woff2') format('woff2'),
+             url('fonts/Regular/objectsans-regular-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    
+    }
+    
+    
+    @font-face {
+        font-family: 'object_sansbold';
+        src: url('fonts/Bold/objectsans-bold-webfont.woff2') format('woff2'),
+             url('fonts/Bold/objectsans-bold-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    
+    }

@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/stylesheetContactPage.css">
+    <link rel="stylesheet" href="../css/stylesheetContactMobile.css">
     <title>HeyBob</title>
 </head>
-<body>
+<body onload="myFunction()" style="margin:0;">
+    <div id="loader"></div>
+    <div style="display:none;" id="myDiv" class="transition">
         <div id="container">
+           
             <section id="header">
-                <div id="headerHB"><a href="../index.html"><img src="../asset/logo.svg" alt="HeyBob_Logo" style="width: 160px;"></a>
-                    <br><br><br>
+                <div id="headerHB"><a href="../index.html"><img src="../asset/logo.png" alt="HeyBob_Logo"></a>
                     <section id="part1">
                     <p>I'm the graphic designer you were looking for, nice to meet you. Specialized in brand creation, my name is Jordane, but everybody calls me Bob, and I'm here to transform your ideas & projects into beautiful creations.<br><br>
                     One thing about me, I don't like to call myself an <br>« Art Director » even if it's cool and I manage to create contents since 8 years. But I'm closer to an artist that uses tools to create whatever I have in mind, then a designer in a workspace. I create my own space now :)<br>
@@ -32,17 +35,28 @@
                     <h2>©2022</h2>
                     <br>
                     <section id="part3">
-                        <p><strong>Services</strong><br><br>identity creation<br>visual development<br>web & app design<br>personnalised illustrations<br>brandbook<br>presentation files
-                        <br>motion & video editions<br>digital content<br>prints<br><br><strong>I've worked with/for</strong><br><br>Alstom<br>Opel Bank<br>Maison Villevert<br>GMF<br>
-                        Promocash<br>Autodistribution<br>Spendly<br>GVine<br>Bouygue Immobilier<br>Groupe Rhinos<br>Le petit shop<br>3 Rivières<br>Higgins conciergerie
-                        <br>Keolis MHI<br>Luvya Festival<br>Morning Groupe<br>Your Art Lucky<br>J'ai la Pêche<br>Tinsel Emotions </p>
+                    <p><strong>Services</strong><br><br>identity creation<br>visual development<br>web & app design<br>personnalised illustrations<br>brandbook<br>presentation files
+                    <br>motion & video editions<br>digital content<br>prints<br><br><strong>I've worked with/for</strong><br><br>Alstom<br>Opel Bank<br>Maison Villevert<br>GMF<br>
+                    Promocash<br>Autodistribution<br>Spendly<br>GVine<br>Bouygue Immobilier<br>Groupe Rhinos<br>Le petit shop<br>3 Rivières<br>Higgins conciergerie
+                    <br>Keolis MHI<br>Luvya Festival<br>Morning Groupe<br>Your Art Lucky<br>J'ai la Pêche<br>Tinsel Emotions </p>
                     </section>  
                 </div>
             </section>
-            
-            
-            
         </div>
-</main>
+    </div>
+        <!-- LOADER -->
+        <script>
+          var myVar;
+         function myFunction() {
+                document.getElementById("loader").style.display = "block";
+                 myVar = setTimeout(showPage, 1);
+               }
+               
+         function showPage() {
+          document.getElementById("loader").style.display = "none";
+          document.getElementById("myDiv").style.display = "block";
+           }      
+         
+           </script>
 </body>
 </html>

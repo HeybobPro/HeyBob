@@ -1,4 +1,3 @@
-
 /* _________________________________________________________________________________________________________________ */
 /* _________________________________________________________________________________________________________________ */
 
@@ -21,7 +20,7 @@
      
      nav{
       padding: 3% 0% 3% 0%;
-      margin: 0% 16% 10% 16%;
+      margin: 0% 16% 5% 16%;
       mix-blend-mode: normal;
       z-index: 100;
       top: 3%;
@@ -38,6 +37,7 @@
     }
 
      #container{
+         position: relative;
          margin: 0% 0%;
          display: flex;
          flex-direction: column;
@@ -46,7 +46,7 @@
 
      #part1{
         
-        background-attachment: fixed;
+        background-attachment: local;
         background-image: url("../asset/Beauty2.png");
         background-repeat: no-repeat;
         background-position: 110% 0%;
@@ -135,8 +135,8 @@
 
      #library{
          background-color: rgb(255, 255, 255);
-         margin: 5% 0% 0% 0%;
-         padding: 10% 10% 0% 10%;
+         margin: 0% 0% 0% 0%;
+         padding: 5% 10% 0% 10%;
          display: flex;
          flex-wrap: wrap;
          flex-direction:row;
@@ -287,33 +287,11 @@
     #newContent_id3:hover{
         transform: scale(1.1);
     }
+
+
+
     /* LOADER */
-    
-    #loader {
-    
-    text-align: center;
   
-  
-    }   
-    #content_loader{
-    
-        font-size: 50px;
-        color: rgb(255, 252, 80);
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        z-index: 1;
-        width: 120px;
-        height: 120px;
-        margin: -76px 0 0 -76px;
-        border: 16px solid #f2f547;
-         border-radius: 50%;
-        border-top: 16px solid #ffffff;
-        border-bottom: 16px solid #ffffff;
-        -webkit-animation: spin 2s linear infinite;
-        animation: spin 2s linear infinite;
-      
-      }
       /*TRANSITION SECTION ET TEXTE*/
 
       .revealHR .blocMenus, .blocMenus{
@@ -324,10 +302,6 @@
 
 
 
-#myDiv {
-    z-index: 999999999;
-    display: none;
-  }
 
 
 /* VERTICAL TOP */
@@ -374,41 +348,8 @@
     opacity: 1;
   } 
 
-/* LOADER */
 
 
-  
-  @-webkit-keyframes spin {
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
-  }
-  
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-
-
-
-
-/* UP LOADER */
-  .animate-bottom {
-    position: relative;
-    -webkit-animation-name: animatebottom;
-    -webkit-animation-duration: 0.5s;
-    animation-name: animatebottom;
-    animation-duration: 0.5s
-  }
-  
-  @-webkit-keyframes animatebottom {
-    from { bottom:-100px; opacity:0 } 
-    to { bottom:0px; opacity:1 }
-  }
-  
-  @keyframes animatebottom { 
-    from{ bottom:-100px; opacity:0 } 
-    to{ bottom:0; opacity:1 }
-  }
   
   
 /*fonts*/
@@ -433,3 +374,29 @@
 
 }
 }
+
+/* TRANSITION */
+#myDiv {
+  z-index: 999999999;
+  display: none;
+}
+
+  .transition{
+    
+        position: relative;
+        -webkit-animation-name: transitionLeft;
+        -webkit-animation-duration: 1s;
+        animation-name: transitionLeft;
+        animation-duration: 1s;
+      
+      }
+  
+  @-webkit-keyframes transitionLeft {
+    from { left:1000px; opacity:0 } 
+    to { left:0px; opacity:1 }
+  }
+  
+  @keyframes transitionLeft { 
+    from{ left:1000px; opacity:0 } 
+    to{ left:0; opacity:1 }
+  }

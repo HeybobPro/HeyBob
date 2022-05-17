@@ -7,20 +7,25 @@
     <link rel="stylesheet" href="css/stylesheetComputer.css">
     <link rel="stylesheet" href="css/stylesheetLaptop.css">
     <link rel="stylesheet" href="css/stylesheetMobile.css">
+    <link rel="stylesheet" href="css/stylesheetSwup.scss">
     <title>HeyBob</title>
     
 <!-- 
   -Creator : Léo Gauthier de porry
   -Proprety : HeyBob 
   -Create : 09/05/22
-  -Last modif : 13/05/22 17h37
+  -Last modif : 17/05/22 17h26
 -->
 </head> 
 <body onload="myFunction()" style="margin:0;">
-<div id="loader"><p>VERS 0.7</p><br><p>HEYBOB</p><div id="content_loader"></div></div>
-<div style="display:none;" id="myDiv" class="animate-bottom">
-<div id="container">
-<div id="part1">
+<div id="loader"></div>
+<div style="display:none;" id="myDiv" class="transition">
+<div id="container" class="transition">
+          
+  
+          
+  <div id="part1">
+
     <!-- Nav Bar  -->
             <nav>
                 <div class="container revealLogo">
@@ -117,7 +122,6 @@
             </section>
         </section>  
 </div>
-</main>
 </div>
 </div>
 
@@ -214,7 +218,6 @@ function reveal() {
 <!-- Animation Loader -->
 <script>
      
-     
      /* LOADER A CHARGEMENT DOM */
 /*    function work() { 
       
@@ -237,7 +240,7 @@ function reveal() {
   function myFunction() {
      document.getElementById("loader").style.display = "block";
      
-          myVar = setTimeout(showPage, 1000);
+          myVar = setTimeout(showPage, 1);
         }
         
   function showPage() {
@@ -247,7 +250,7 @@ function reveal() {
   
     </script>
     <!-- Off Scroll X -->
-    <script>
+<script>
     function nonScroll()
     { 
   scrollGauche = window.pageXOffset;
@@ -258,5 +261,6 @@ function reveal() {
 } 
 nonScroll();
     </script>
+    
 </body>
 </html>
