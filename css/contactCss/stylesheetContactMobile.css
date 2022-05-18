@@ -1,81 +1,4 @@
-/* PHONE /____________________________________________/ */
-@media only screen and (max-width:425px) {
-    body{
-        display:inline-block;
-        overflow-x: hidden;
-        margin: 5%;
-        font-family: 'object_sansregular';
-     }
-     
-     a{
-         color: black;
-        text-decoration: none;
-       }
-       #container{
-        box-sizing: content-box;
-     }
-
-    #container{
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-image: url("../../asset/eyes.png");
-        background-size: 850px;
-        background-repeat: no-repeat;
-        background-position: 100% 100%;
-        
-    }
-
-    #header{
-        margin: 5%;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    }
-
-    /* HeyBob */
-
-    #headerHB{
-        width: 90%;
-    }
-    #headerHB img{
-        width: 250px;
-    }
-    #part1{
-        font-size: 35px;
-    }
-
-    /* Contact */
-    h2{
-        display: none;
-    } 
-    #part2{
-        font-size: 14px;
-    }
-    #part2 p {
-        padding: 17% 0% 0% 0%;
-    }
-    
-    /* 2022 */
-    #headerD{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    h3{
-        font-size: 40px;
-    }
-    #part3{
-        margin: 15% 0% 0% 0%;
-        font-size: 14px;
-    }
-    }  
-    
-    /* __________________________________________ */
-
-
-
-    /* PAD /__________________________________/ */
+/* PAD PHONE SCREEN CONTACT PAGE */
 
     @media only screen and (max-width:768px) {
         body{
@@ -106,9 +29,9 @@
         #header{
             margin: 5%;
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             align-items: flex-start;
-            justify-content: flex-start;
+            justify-content: space-evenly;
             flex-wrap: wrap;
         }
     

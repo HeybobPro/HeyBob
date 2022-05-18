@@ -51,17 +51,17 @@
     }
 
     /* PART ANIMATION */
-
-    .logoScale img{
-    width: 175px;
+ 
+     .logoScale img{
+    width: 105px;
     transition: 1s all ease;
   }
   
-    .logoScale img.active{
-    width: 125px;
+     .logoScale img.active{
+    width: 105px;
     
-    }
-    
+    } 
+     
     #headerC{
         display: flex;
         flex-direction: column-reverse;
@@ -72,7 +72,7 @@
         margin: 0% 0%;
          z-index: 100;
          cursor: default;
-          font-size: 30px;
+          font-size: 28px;
           color: rgb(41, 0, 22);
           mix-blend-mode: luminosity;
           font-family: 'object_sansbold';
@@ -81,7 +81,7 @@
         color: rgb(41, 0, 22);
         mix-blend-mode: luminosity;
         margin: 0%;
-        font-size: 22px;
+        font-size: 20px;
     }
     #discoveringBox{
         
@@ -99,12 +99,12 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        font-size: 30px;
+        font-size: 20px;
         margin: 0% 0% 70% 0%;
     }
     #infoMore{
         margin: 5% 0% 0% 0%;
-        font-size: 23px;
+        font-size: 18px;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -228,7 +228,7 @@
         color: white;
         background-color: rgba(255, 255, 255, 0);
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
     }
 
