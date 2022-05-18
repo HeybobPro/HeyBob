@@ -48,18 +48,19 @@
         }
     
         /* Contact */
+        #headerC{
+            width: 50%;
+        }
         h2{
             display: none;
         } 
         #part2{
+            width: 45%;
             font-size: 14px;
         }
-        #part2 p {
-            padding: 17% 0% 0% 0%;
-        }
-        
         /* 2022 */
         #headerD{
+            width: 50%;
             display: flex;
             flex-direction: column-reverse;
         }
@@ -67,7 +68,7 @@
             font-size: 40px;
         }
         #part3{
-            margin: 15% 0% 0% 0%;
+            width: 45%;
             font-size: 14px;
         }
     }
