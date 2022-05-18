@@ -17,7 +17,7 @@
      
      nav{
       padding: 3% 0% 3% 0%;
-      margin: 0% 16% 10% 16%;
+      margin: 0% 15% 10% 15%;
       mix-blend-mode: normal;
       z-index: 100;
       top: 3%;
@@ -37,7 +37,7 @@
         background-attachment: fixed;
         background-image: url("../asset/Beauty2.png");
         background-repeat: no-repeat;
-        background-position: 100% 0%;
+        background-position: 150% 0%;
         background-size: 100%;
      }
 
@@ -52,12 +52,12 @@
     /* PART ANIMATION */
 
     .logoScale img{
-    width: 175px;
+    width: 200px;
     transition: 1s all ease;
   }
   
     .logoScale img.active{
-    width: 125px;
+    width: 150px;
     
     }
     
@@ -71,18 +71,19 @@
         margin: 0% 0%;
          z-index: 100;
          cursor: default;
-          mix-blend-mode: luminosity;
           font-size: 35px;
-          color: black;
+          color: rgb(41, 0, 22);
+          mix-blend-mode: luminosity;
           font-family: 'object_sansbold';
       }
     #headerC h2{
+        color: rgb(41, 0, 22);
+          mix-blend-mode: luminosity;
         margin: 0%;
         font-size: 13px;
     }
     #discoveringBox{
-        
-        margin: 5% 0% 20% 16%;
+        margin: 5% 16% 20% 16%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -91,17 +92,18 @@
     
     
     #discover {
+        color: #000000;
         font-family: 'object_sansregular';
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         width: 45%;
-        font-size: 19px;
+        font-size: 25px;
         margin: 0% 0% 5% 0%;
     }
     #infoMore{
         margin: 5% 0% 0% 0%;
-        font-size: 13px;
+        font-size: 18px;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -111,11 +113,13 @@
         align-content: flex-start;
     }
 
+    /* LIBRAIRIE /______________________________________/ */
+
     #library{
-        position: relative;
-        margin: 10% 0% 0% 0%;
         background-color: rgb(255, 255, 255);
-        font-size: 16px;
+        padding: 10% 0%;
+        margin: 15% 0% 0% 0%;
+        /* padding: 5% 16% 0% 16%; */
         display: flex;
         flex-wrap: wrap;
         flex-direction:row;
@@ -124,21 +128,62 @@
         align-content: space-around;
 
     }
-    #library a{
+   #library a{
         cursor: default;
     }
-
-    .blocMenus{
+    
+   .blocMenus{
+        font-size: 35px;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        margin: 5%;
-        color: black;
-        background-color: rgba(199, 199, 199, 0.329);
-        width: 175px;
-        height: 175px;
+        color: rgb(255, 255, 255);
+        opacity: 0.7;
+        background-color: rgb(0, 0, 0);
+        width: 400px;
+        height: 400px;
     }
+   #logos{
+       background-image: url("../asset/bobby.png");
+       background-position: 100% 100%;
+       background-size: 100%;
+       margin: 0% 0% 0% 0%;
+    }
+   #webapp{
+     background-image: url("../asset/spendlly.png");
+     background-position: 100% 100%;
+     background-size: 100%;
+     margin: 0% 0% 0% 0%;
+  }
+    #illu{
+   background-image: url("../asset/multiheart.png");
+   background-position: 100% 100%;
+   background-size: 100%;
+   margin: 0% 0% 0% 0%;
+  }
+    #com{
+   background-image: url("../asset/freshjuice.png");
+   background-position: 100% 100%;
+   background-size: 100%;
+   margin: 0% 0% 0% 0%;
+  }
+   #motion{
+   background-image: url("../asset/bitogether.png");
+   background-position: 100% 100%;
+   background-size: 100%;
+   margin: 0% 0% 0% 0%;
+  }
+   #printlayout{
+   background-image: url("../asset/GVine.png");
+   background-position: 100% 100%;
+   background-size: 100%;
+   margin: 0% 0% 0% 0%;
+  }
+
+    
+    /* /_________________________________________________/ */
+
     
    #propose{
        background-color: rgb(255, 255, 255);
@@ -200,15 +245,15 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        height: 100px;
-        width: 100px;
+        height: 200px;
+        width: 200px;
         background-color: rgba(0, 0, 0, 0.623);
     }
     #newContent_id1{
         
-        margin: 0px 50px 50px 50px;
-        height: 100px;
-        width: 100px;
+        margin: 2%;
+        height: 215px;
+        width: 215px;
         background-size: 100%;
         background-repeat: no-repeat;
         background-image: url("../asset/UrbanIndex.svg");
@@ -222,14 +267,14 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        height: 100px;
-        width: 100px;
+        height: 215px;
+        width: 215px;
         background-color: rgba(0, 0, 0, 0.623);
     }
     #newContent_id2{
-        margin: 0px 50px 50px 50px;
-        height: 100px;
-        width: 100px;
+        margin: 2%;
+        height: 215px;
+        width: 215px;
         background-size: 100%;
        /*  background-color: #F93400; */
         background-repeat: no-repeat;
@@ -245,14 +290,14 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        height: 100px;
-        width: 100px;
+        height: 215px;
+        width: 215px;
         background-color: rgba(0, 0, 0, 0.623);
     }
     #newContent_id3{
-        margin: 0px 50px 50px 50px;
-        height: 100px;
-        width: 100px;
+        margin: 2%;
+        height: 215px;
+        width: 215px;
         background-size: 100%;
         background-repeat: no-repeat;
         background-image: url("../asset/Inktober.svg");
@@ -290,23 +335,9 @@
             animation: spin 2s linear infinite;
           
           }
-          /*TRANSITION SECTION ET TEXTE*/
-    
-          .revealHR .blocMenus, .blocMenus{
-            margin: 2%;
-        }
-        
 
-  /* TRANSITION LOGO */
- /*   .revealLogo{
-    width: 1%;
-    transition: 1s all ease;
-  } */
-  
-/* .revealLogo.active{
-    transform: translateY(0);
-    width: 14%;
-  }  */
+
+
 
 /* PART ANIMATION */
 
@@ -316,45 +347,11 @@
   }
 
 
-/* LOADER */
-
-
-  
-  @-webkit-keyframes spin {
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
-  }
-  
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-
-
-
-
-/* UP LOADER */
-/*   .animate-bottom {
-    position: relative;
-    -webkit-animation-name: animatebottom;
-    -webkit-animation-duration: 0.5s;
-    animation-name: animatebottom;
-    animation-duration: 0.5s
-  }
-  
-  @-webkit-keyframes animatebottom {
-    from { bottom:-100px; opacity:0 } 
-    to { bottom:0px; opacity:1 }
-  }
-  
-  @keyframes animatebottom { 
-    from{ bottom:-100px; opacity:0 } 
-    to{ bottom:0; opacity:1 }
-  }
-  
-   */
 
 /*FONTS*/
+
+
+}
 
 @font-face {
     font-family: 'object_sansregular';
@@ -373,7 +370,4 @@
          url('fonts/Bold/objectsans-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
-}
-}
-
+  }
