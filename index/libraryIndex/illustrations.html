@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/illuCss/stylesheetillu.css">
+    <title>Illustrations</title>
+</head>
+<body onload="myFunction()" style="margin:0;">
+    <div id="loader"></div>
+    <div style="display:none;" id="myDiv" class="transition">
+        <div id="container">
+        <header>
+            <h1>Illustrations</h1>
+        </header>   
+        <nav>   
+                <div class="container revealHL">
+                    <div id="headerHB"><a href="../../index.html"><img src="../../asset/logo.png" alt="Logo de heybob" class="container logoScale"></a></div>
+                </div>
+                <div class="container revealHR">
+                    <div id="headerC"><a href="../../index/contactpage.html"><h2>contact</h2></a><!-- <h2>&nbsp;&nbsp;&nbsp;©2022</h2></div> -->
+                </div>
+        </nav>
+        <main> 
+            
+            <section id="library">
+                <div class="content">
+                    <div id="com1"></div>
+                </div>
+                <div class="content">
+                    <div id="com2"></div>
+                </div>
+                <div class="content">
+                    <div id="com3"></div>
+                </div>
+                <div class="content">
+                    <div id="com4"></div>
+                </div>
+                <div class="content">
+                    <div id="com5"></div>
+                </div>
+                <div class="content">
+                    <div id="com6"></div>
+                </div>
+                <div class="content">
+                    <div id="com7"></div>
+                </div>
+                <div class="content">
+                    <div id="com8"></div>
+                </div>
+                <div class="content">
+                    <div id="com9"></div>
+                </div>
+                <div class="content">
+                    <div id="com10"></div>
+                </div>
+            </section>
+        </main>
+        </div>
+    </div>
+    <!-- LOADER -->
+<script>
+        var myVar;
+       function myFunction() {
+              document.getElementById("loader").style.display = "block";
+               myVar = setTimeout(showPage, 1);
+             }
+             
+       function showPage() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("myDiv").style.display = "block";
+        
+         }      
+
+         /* REVEAL */
+         function revealHR() {
+        var reveals = document.querySelectorAll(".revealHR");
+      
+        for (var i = 0; i < reveals.length; i++) {
+          var windowHeight = window.innerHeight;
+          var elementTop = reveals[i].getBoundingClientRect().top;
+          var elementVisible = 170;
+      
+          if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("active");
+          } else {
+            reveals[i].classList.remove("active");
+          }
+        }
+      }
+      function revealHL() {
+      var reveals = document.querySelectorAll(".revealHL");
+      
+      for (var i = 0; i < reveals.length; i++) {
+        var windowHeight = window.innerHeight;
+        var elementTop = reveals[i].getBoundingClientRect().top;
+        var elementVisible = 170;
+    
+        if (elementTop < windowHeight - elementVisible) {
+          reveals[i].classList.add("active");
+        } else {
+          reveals[i].classList.remove("active");
+        }
+      }
+    }
+    window.addEventListener("scroll", revealHR);
+    window.addEventListener("scroll", revealHL);
+</script>
+</body>
+</html>

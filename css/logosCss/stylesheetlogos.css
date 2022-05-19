@@ -1,0 +1,1016 @@
+*{
+    scroll-behavior: smooth;
+  }
+
+
+@media only screen and (min-width:1441px) {
+
+    body{
+        font-family: 'object_sansregular';
+     }
+     
+     a{
+         color: black;
+        text-decoration: none;
+       }
+    header{
+        background-color: #FF0045;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around
+    }
+    
+  
+    h1{
+        color: white;
+        font-size: 35px;
+    }
+
+
+    nav{
+        padding: 3% 0% 3% 0%;
+        margin: 0% 16% 0% 16%;
+        mix-blend-mode: normal;
+        z-index: 100;
+        top: 3%;
+        position: sticky;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+       }
+       
+
+    #headerHB img{
+        color: rgb(41, 0, 22);
+        mix-blend-mode: luminosity;
+        z-index: 100;
+        cursor: default;
+        display: flex;
+        flex-direction: row;
+        width: 175px;
+    }
+    #headerC{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+    h2{
+        font-size: 43px;
+    }
+
+    h3{
+        font-size: 40px;
+    }
+    
+    /* LIBRARY COMMUNICATION /_________________________________________________/*/
+    #library{
+        background-color: rgb(255, 255, 255);
+        margin: 0% 5% 0% 5%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: center;
+        align-items: stretch;
+        align-content: space-around;
+
+    }
+
+    .content{
+        margin: 2%;
+        font-size: 35px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 600px;
+        height: 600px;
+    }
+
+    #logo1{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/bobby.png");
+        background-size: 100%;
+    }
+
+    #logo2{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/spendlly.png");
+        background-size: 100%;
+    }
+
+    #logo3{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/cursedcat.png");
+        background-size: 100%;
+    }
+    #logo4{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/spendllypro.png");
+        background-size: 100%;
+    }
+    #logo5{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/lcf.png");
+        background-size: 100%;
+    }
+    #logo6{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/higgins.png");
+        background-size: 100%;
+    }
+    #logo7{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/madinina.png");
+        background-size: 100%;
+    }
+    #logo8{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/arum.png");
+        background-size: 100%;
+    }
+    #logo9{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/lepetitshop.png");
+        background-size: 100%;
+    }
+    #logo10{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/communauty.png");
+        background-size: 100%;
+    }
+    #logo11{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/uni.png");
+        background-size: 100%;
+    }
+    #logo12{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/local.png");
+        background-size: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+                    #backgroundLogo12{
+                        width: 300px;
+                        height: 300px;
+                        background-image: url("../../asset/local2.png");
+                        background-size: 100%;
+                    }
+
+
+
+    #logo13{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/ligo.png");
+        background-size: 100%;
+    }
+    #logo14{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/marcel.png");
+        background-size: 100%;
+    }
+
+
+
+    /* /_______________________________________________________________________/ */
+    
+
+}
+@media only screen and (max-width:1440px) {
+
+    body{
+        font-family: 'object_sansregular';
+     }
+     
+     a{
+         color: black;
+        text-decoration: none;
+       }
+    header{
+        background-color: #FF0045;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around
+    }
+    
+  
+    h1{
+        color: white;
+        font-size: 35px;
+    }
+
+
+    nav{
+        padding: 3% 0% 3% 0%;
+        margin: 0% 14% 0% 14%;
+        mix-blend-mode: normal;
+        z-index: 100;
+        top: 3%;
+        position: sticky;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+       }
+       
+
+    #headerHB img{
+        color: rgb(41, 0, 22);
+        mix-blend-mode: luminosity;
+        z-index: 100;
+        cursor: default;
+        display: flex;
+        flex-direction: row;
+        width: 175px;
+    }
+    #headerC{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+    h2{
+        font-size: 43px;
+    }
+
+    h3{
+        font-size: 40px;
+    }
+    
+    /* LIBRARY COMMUNICATION /_________________________________________________/*/
+    #library{
+        background-color: rgb(255, 255, 255);
+        margin: 0% 5% 0% 5%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: center;
+        align-items: stretch;
+        align-content: space-around;
+
+    }
+
+    .content{
+        margin: 2%;
+        font-size: 35px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 500px;
+        height: 500px;
+    }
+
+    #logo1{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/bobby.png");
+        background-size: 100%;
+    }
+
+    #logo2{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/spendlly.png");
+        background-size: 100%;
+    }
+
+    #logo3{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/cursedcat.png");
+        background-size: 100%;
+    }
+    #logo4{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/spendllypro.png");
+        background-size: 100%;
+    }
+    #logo5{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/lcf.png");
+        background-size: 100%;
+    }
+    #logo6{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/higgins.png");
+        background-size: 100%;
+    }
+    #logo7{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/madinina.png");
+        background-size: 100%;
+    }
+    #logo8{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/arum.png");
+        background-size: 100%;
+    }
+    #logo9{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/lepetitshop.png");
+        background-size: 100%;
+    }
+    #logo10{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/communauty.png");
+        background-size: 100%;
+    }
+    #logo11{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/uni.png");
+        background-size: 100%;
+    }
+    #logo12{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/local.png");
+        background-size: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+                    #backgroundLogo12{
+                        width: 250px;
+                        height: 250px;
+                        background-image: url("../../asset/local2.png");
+                        background-size: 100%;
+                    }
+
+
+
+    #logo13{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/ligo.png");
+        background-size: 100%;
+    }
+    #logo14{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/marcel.png");
+        background-size: 100%;
+    }
+
+
+
+    /* /_______________________________________________________________________/ */
+    
+
+}   
+@media only screen and (max-width:1024px) {
+
+    body{
+        font-family: 'object_sansregular';
+     }
+     
+     a{
+         color: black;
+        text-decoration: none;
+       }
+    header{
+        background-color: #FF0045;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around
+    }
+    
+  
+    h1{
+        color: white;
+        font-size: 35px;
+    }
+
+
+    nav{
+        padding: 3% 0% 3% 0%;
+        margin: 0% 16% 0% 16%;
+        mix-blend-mode: normal;
+        z-index: 100;
+        top: 3%;
+        position: sticky;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+       }
+       
+
+    #headerHB img{
+        color: rgb(41, 0, 22);
+        mix-blend-mode: luminosity;
+        z-index: 100;
+        cursor: default;
+        display: flex;
+        flex-direction: row;
+        width: 175px;
+    }
+    #headerC{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+    h2{
+        font-size: 43px;
+    }
+
+    h3{
+        font-size: 40px;
+    }
+    
+    /* LIBRARY COMMUNICATION /_________________________________________________/*/
+    #library{
+        background-color: rgb(255, 255, 255);
+        margin: 0% 5% 0% 5%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: center;
+        align-items: stretch;
+        align-content: space-around;
+
+    }
+
+    .content{
+        margin: 2%;
+        font-size: 35px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 325px;
+        height: 325px;
+    }
+
+    #logo1{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/bobby.png");
+        background-size: 100%;
+    }
+
+    #logo2{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/spendlly.png");
+        background-size: 100%;
+    }
+
+    #logo3{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/cursedcat.png");
+        background-size: 100%;
+    }
+    #logo4{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/spendllypro.png");
+        background-size: 100%;
+    }
+    #logo5{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/lcf.png");
+        background-size: 100%;
+    }
+    #logo6{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/higgins.png");
+        background-size: 100%;
+    }
+    #logo7{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/madinina.png");
+        background-size: 100%;
+    }
+    #logo8{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/arum.png");
+        background-size: 100%;
+    }
+    #logo9{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/lepetitshop.png");
+        background-size: 100%;
+    }
+    #logo10{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/communauty.png");
+        background-size: 100%;
+    }
+    #logo11{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/uni.png");
+        background-size: 100%;
+    }
+    #logo12{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/local.png");
+        background-size: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+                    #backgroundLogo12{
+                        width: 162px;
+                        height: 162px;
+                        background-image: url("../../asset/local2.png");
+                        background-size: 100%;
+                    }
+
+
+
+    #logo13{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/ligo.png");
+        background-size: 100%;
+    }
+    #logo14{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/marcel.png");
+        background-size: 100%;
+    }
+
+}    
+
+@media only screen and (max-width:768px) {
+
+    body{
+        font-family: 'object_sansregular';
+     }
+     
+     a{
+         color: black;
+        text-decoration: none;
+       }
+    header{
+        background-color: #FF0045;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around
+    }
+    
+  
+    h1{
+        color: white;
+        font-size: 35px;
+    }
+
+
+    nav{
+        padding: 3% 0% 3% 0%;
+        margin: 0% 16% 0% 16%;
+        mix-blend-mode: normal;
+        z-index: 100;
+        top: 3%;
+        position: sticky;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-end;
+       }
+       
+
+    #headerHB img{
+        color: rgb(41, 0, 22);
+        mix-blend-mode: luminosity;
+        z-index: 100;
+        cursor: default;
+        display: flex;
+        flex-direction: row;
+        width: 175px;
+    }
+    #headerC{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+      }
+    h2{
+        margin: 0%;
+        font-size: 43px;
+    }
+
+    h3{
+        margin: 0%;
+        font-size: 22px;
+    }
+    
+    /* LIBRARY COMMUNICATION /_________________________________________________/*/
+    #library{
+        background-color: rgb(255, 255, 255);
+        margin: 0% 5% 0% 5%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: center;
+        align-items: stretch;
+        align-content: space-around;
+
+    }
+
+    .content{
+        margin: 2%;
+        font-size: 35px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 250px;
+        height: 250px;
+    }
+
+    #logo1{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/bobby.png");
+        background-size: 100%;
+    }
+
+    #logo2{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/spendlly.png");
+        background-size: 100%;
+    }
+
+    #logo3{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/cursedcat.png");
+        background-size: 100%;
+    }
+    #logo4{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/spendllypro.png");
+        background-size: 100%;
+    }
+    #logo5{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/lcf.png");
+        background-size: 100%;
+    }
+    #logo6{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/higgins.png");
+        background-size: 100%;
+    }
+    #logo7{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/madinina.png");
+        background-size: 100%;
+    }
+    #logo8{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/arum.png");
+        background-size: 100%;
+    }
+    #logo9{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/lepetitshop.png");
+        background-size: 100%;
+    }
+    #logo10{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/communauty.png");
+        background-size: 100%;
+    }
+    #logo11{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/uni.png");
+        background-size: 100%;
+    }
+    #logo12{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/local.png");
+        background-size: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+                    #backgroundLogo12{
+                        width: 125px;
+                        height: 125px;
+                        background-image: url("../../asset/local2.png");
+                        background-size: 100%;
+                    }
+
+
+
+    #logo13{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/ligo.png");
+        background-size: 100%;
+    }
+    #logo14{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/marcel.png");
+        background-size: 100%;
+    }
+
+}    
+
+@media only screen and (max-width:425px) {
+
+    body{
+        font-family: 'object_sansregular';
+     }
+     
+     a{
+         color: black;
+        text-decoration: none;
+       }
+    header{
+        background-color: #FF0045;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around
+    }
+    
+  
+    h1{
+        color: white;
+        font-size: 35px;
+    }
+
+
+    nav{
+        margin: 0% 16% 0% 16%;
+        mix-blend-mode: normal;
+        z-index: 100;
+        top: 3%;
+        position: sticky;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-end;
+       }
+       
+
+    #headerHB img{
+        color: rgb(41, 0, 22);
+        mix-blend-mode: luminosity;
+        z-index: 100;
+        cursor: default;
+        display: flex;
+        flex-direction: row;
+        width: 80px;
+    }
+    #headerC{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+      }
+    h2{
+        margin: 0%;
+        font-size: 23px;
+    }
+
+    h3{
+        margin: 0%;
+        font-size: 12px;
+    }
+    
+    /* LIBRARY COMMUNICATION /_________________________________________________/*/
+    #library{
+        background-color: rgb(255, 255, 255);
+        margin: 0% 5% 0% 5%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: center;
+        align-items: stretch;
+        align-content: space-around;
+
+    }
+
+    .content{
+        margin: 2%;
+        font-size: 35px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 125px;
+        height: 125px;
+    }
+
+    #logo1{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/bobby.png");
+        background-size: 100%;
+    }
+
+    #logo2{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/spendlly.png");
+        background-size: 100%;
+    }
+
+    #logo3{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/cursedcat.png");
+        background-size: 100%;
+    }
+    #logo4{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/spendllypro.png");
+        background-size: 100%;
+    }
+    #logo5{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/lcf.png");
+        background-size: 100%;
+    }
+    #logo6{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/higgins.png");
+        background-size: 100%;
+    }
+    #logo7{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/madinina.png");
+        background-size: 100%;
+    }
+    #logo8{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/arum.png");
+        background-size: 100%;
+    }
+    #logo9{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/lepetitshop.png");
+        background-size: 100%;
+    }
+    #logo10{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/communauty.png");
+        background-size: 100%;
+    }
+    #logo11{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/uni.png");
+        background-size: 100%;
+    }
+    #logo12{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/local.png");
+        background-size: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+                    #backgroundLogo12{
+                        width: 72px;
+                        height: 72px;
+                        background-image: url("../../asset/local2.png");
+                        background-size: 100%;
+                    }
+
+
+
+    #logo13{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/ligo.png");
+        background-size: 100%;
+    }
+    #logo14{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/marcel.png");
+        background-size: 100%;
+    }
+
+}    
+
+
+/*fonts*/
+@font-face {
+    font-family: 'object_sansregular';
+    src: url('../fonts/Regular/objectsans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/Regular/objectsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'object_sansbold';
+    src: url('../fonts/Bold/objectsans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/Bold/objectsans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* PART ANIMATION */
+/* LOADER */
+#myDiv {
+    z-index: 999999999;
+    display: none;
+  }    
+
+  
+.transition{
+    
+        position: relative;
+        -webkit-animation-name: transitionLeft;
+        -webkit-animation-duration: 1s;
+        animation-name: transitionLeft;
+        animation-duration: 1s;
+      
+      }
+
+      @-webkit-keyframes transitionLeft {
+        from { Left:1000px; opacity:0 } 
+        to { Left:0px; opacity:1 }
+      }
+      
+      @keyframes transitionLeft { 
+        from{ Left:1000px; opacity:0 } 
+        to { Left:0px; opacity:1 }
+      }
+
+    
+      /* HORIZONTAL RIGHT */
+    .revealHR {
+        transition: 1s all ease;
+        opacity: 0;
+     }
+  
+    .revealHR.active {
+        opacity: 1;
+     } 
+
+     /* HORIZONTAL LEFT */
+     /* _______________ */
+    .revealHL {
+        transition: 1s all ease;
+        opacity: 0;
+  }
+  
+    .revealHL.active {
+        opacity: 1;
+    
+  } 

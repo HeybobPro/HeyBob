@@ -2,7 +2,9 @@
 /* _________________________________________________________________________________________________________________ */
 
 /* vers. SCREEN COMPUTER */
-/* 11/05/2022 */
+*{
+  scroll-behavior: smooth;
+}
 
 @media only screen and (min-width:1025px) {
    
@@ -20,7 +22,7 @@
      
      nav{
       padding: 3% 0% 3% 0%;
-      margin: 0% 16% 5% 16%;
+      margin: 0% 16% 0% 16%;
       mix-blend-mode: normal;
       z-index: 100;
       top: 3%;
@@ -44,6 +46,7 @@
      }
 
      #part1{
+       background-attachment: fixed;
         background-image: url("../asset/Beauty2.png");
         background-repeat: no-repeat;
         background-position: 100% 0%;
@@ -154,7 +157,7 @@
      }
      
     .blocMenus{
-         font-size: 35px;
+         font-size: 50px;
          display: flex;
          flex-direction: row;
          align-items: center;
@@ -172,6 +175,7 @@
         margin: 0% 0% 0% 0%;
      }
     #webapp{
+      text-align: center;
       background-image: url("../asset/spendlly.png");
       background-position: 100% 100%;
       background-size: 100%;
@@ -202,70 +206,41 @@
     margin: 0% 0% 0% 0%;
    }
 
-     
+   #propose{
+     background-color: white;
+   } 
+
      /* /_________________________________________________/ */
-    #propose{
+    #lpropose{
+      padding: 10% 0%;
         background-color: rgb(255, 255, 255);
         background-image: url("../asset/heart.png");
+        background-size: 10%;
         background-repeat: no-repeat;
-        background-position: 80% 0%;
-        margin: 0% 0% 0% 0%;
-         font-size: 35px;
-         display: flex;
-         flex-direction: column;
-         flex-wrap: wrap;
-         align-content: space-around;
-         justify-content: center;
+        background-position: 50% 50%;
      }
-    
-     #lpropose{
-         margin: 1% 0%;
-         display: flex;
-         flex-direction: column;
-     }
-
-     #propose input {
-        -webkit-appearance: media-mute-button;
-        -webkit-appearance: caret;
-        -moz-appearance: scrollbarbutton-up;
-        -moz-appearance: button-bevel;
-         height: 7vh;
-         width: 30vw;
-         color: white;
-         background-color: #FF0045;
-         border: none;
-         border-radius: 12px;
-         text-align: center;
-         font-size: 20px;
-         cursor: pointer;
-         font-family: 'object_sansbold';
-         transition: 0.5s all ease;
-     }
-     #propose input:hover {
-        transition: 0.5s all ease;
-         transform: scale(1.1);
-         background-color: #FF0045;
-     }
+    #lpropose p{
+      font-size: 25px;
+      text-align: center;
+        margin: 0%;
+    }
 
 
      /* NEW PROJECT HERE */
     /* New Feature can modified ..*/
     #newProject{
-        margin: 2% 0%;
+        margin: 0% 0%;
         color: white;
         background-color: rgba(255, 255, 255, 0);
         display: flex;
         flex-direction: row;
         justify-content: center;
         flex-wrap: nowrap;
+        font-size: 35px;
     }
 
 
-    /* CONTENT CAN BE MODIFIED */
-    #newContent_text{
-
-        color: rgb(255, 255, 255);
-    }
+  
     /* CONTENT 1 */
     #overlay1{
         display: flex;
@@ -274,8 +249,7 @@
         align-items: center;
         height: 400px;
         width: 400px;
-        opacity: 0.6;
-        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.6);
         transition: 1s all ease;
     }
     #overlay1:hover{
@@ -300,8 +274,7 @@
         align-items: center;
         height: 400px;
         width: 400px;
-        opacity: 0.6;
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0, 0.6);
         transition: 1s all ease;
     }
     #overlay2:hover{
@@ -326,8 +299,7 @@
         align-items: center;
         height: 400px;
         width: 400px;
-        opacity: 0.6;
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0, 0.6);
         transition: 1s all ease;
     }
     #overlay3:hover{
@@ -430,20 +402,20 @@
 
   .transition{
     
-        position: relative;
-        -webkit-animation-name: transitionLeft;
-        -webkit-animation-duration: 1s;
-        animation-name: transitionLeft;
-        animation-duration: 1s;
+        position: local;
+        -webkit-animation-name: transition;
+        -webkit-animation-duration: 2s;
+        animation-name: transition;
+        animation-duration: 2s;
       
       }
   
-  @-webkit-keyframes transitionLeft {
-    from { left:1000px; opacity:0 } 
-    to { left:0px; opacity:1 }
+  @-webkit-keyframes transition {
+    from { opacity:0 } 
+    to { opacity:1 }
   }
   
-  @keyframes transitionLeft { 
-    from{ left:1000px; opacity:0 } 
-    to{ left:0; opacity:1 }
+  @keyframes transition { 
+    from{ opacity:0 } 
+    to{ opacity:1 }
   }

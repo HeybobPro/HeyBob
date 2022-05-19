@@ -20,16 +20,18 @@
     }
 
     #header{
+        margin: 1% 0% 0% 0%;
         display: flex;
         flex-direction: row;
         align-items: baseline;
-        justify-content: space-around;
+        justify-content: flex-start;
         flex-wrap: wrap;
     }
 
     /* HeyBob */
 
     #headerHB{
+        margin: 0% 5%;
         width: 50%;
     }
     #headerHB img{
@@ -42,6 +44,9 @@
     }
 
     /* Contact */
+    #headerC{
+        margin: 0% 0% 0% 6%;
+    }
     h2{
         font-size: 40px;
     } 
@@ -50,6 +55,9 @@
         font-size: 14px;
     }
     /* 2022 */
+    #headerD{
+        margin: 0% 0% 0% 2%;
+    }
     h3{
         font-size: 40px;
     }
