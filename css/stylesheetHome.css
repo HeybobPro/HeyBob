@@ -474,7 +474,6 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      width: 90%;
   }
   
   
@@ -811,11 +810,10 @@
       font-size: 13px;
   }
   #discoveringBox{
-      margin: 5% 16% 22% 16%;
+      margin: 5% 0% 22% 16%;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      width: 90%;
   }
   
   
@@ -1076,7 +1074,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
  }
 
  #container{
@@ -1114,7 +1112,7 @@ width: 125px;
     margin: 0% 0%;
      z-index: 100;
      cursor: default;
-      font-size: 35px;
+      font-size: 13px;
       color: rgb(41, 0, 22);
       mix-blend-mode: luminosity;
       font-family: 'object_sansbold';
@@ -1126,11 +1124,10 @@ width: 125px;
     font-size: 13px;
 }
 #discoveringBox{
-    margin: 5% 16% 20% 16%;
+    margin: 5% 0% 20% 16%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 90%;
 }
 
 
@@ -1140,7 +1137,7 @@ width: 125px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 75%;
+    width: 82%;
     font-size: 30px;
     margin: 0% 0% 5% 0%;
 }
@@ -1185,8 +1182,8 @@ width: 125px;
     color: rgb(255, 255, 255);
     opacity: 0.7;
     background-color: rgb(0, 0, 0);
-    width: 250px;
-    height: 250px;
+    width: 335px;
+    height: 335px;
 }
 #logos{
    background-image: url("../asset/bobby.png");
@@ -1249,7 +1246,7 @@ margin: 0% 0% 0% 0%;
 /* New Feature can modified ..*/
 #newProject{
     font-size: 30px;
-    margin: 15% 0%;
+    margin: 8% 0%;
     color: white;
     background-color: rgba(255, 255, 255, 0);
     display: flex;
@@ -1434,7 +1431,7 @@ display: none;
       margin: 0% 0%;
        z-index: 100;
        cursor: default;
-        font-size: 28px;
+        font-size: 20px;
         color: rgb(41, 0, 22);
         mix-blend-mode: luminosity;
         font-family: 'object_sansbold';
@@ -1443,16 +1440,14 @@ display: none;
       color: rgb(41, 0, 22);
       mix-blend-mode: luminosity;
       margin: 0%;
-      font-size: 20px;
+      font-size: 18px;
   }
   #discoveringBox{
       
-      margin: 5% 16% 0% 16%;
+      margin: 10% 16% 10% 16%;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      width: 50%;
-      height: 100%;
   }
   
   
@@ -1463,6 +1458,7 @@ display: none;
       flex-wrap: wrap;
       font-size: 20px;
       margin: 0% 0% 5% 0%;
+      width: 100%;
   }
   #infoMore{
       margin: 5% 0% 0% 0%;
@@ -1495,7 +1491,7 @@ display: none;
 
 .blocMenus{
  text-align: center;
-    font-size: 35px;
+    font-size: 25px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1503,8 +1499,8 @@ display: none;
     color: rgb(255, 255, 255);
     opacity: 0.7;
     background-color: rgb(0, 0, 0);
-    width: 275px;
-    height: 275px;
+    width: 190px;
+    height: 190px;
 }
 #logos{
    background-image: url("../asset/bobby.png");
@@ -1529,7 +1525,11 @@ background-image: url("../asset/freshjuice.png");
 background-position: 100% 100%;
 background-size: 100%;
 margin: 0% 0% 0% 0%;
-}
+}         
+          #com p{
+            font-size: 18px;
+          }
+
 #motion{
 background-image: url("../asset/bitogether.png");
 background-position: 100% 100%;
@@ -1567,13 +1567,15 @@ margin: 0% 0% 0% 0%;
    /* NEW PROJECT HERE */
   /* New Feature can modified ..*/
   #newProject{
-      
+      font-size: 18px;
+      margin: 0% 0%;
       color: white;
       background-color: rgba(255, 255, 255, 0);
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       justify-content: center;
       align-items: center;
+      text-align: center;
   }
 
   /* CONTENT 1 */
@@ -1582,15 +1584,15 @@ margin: 0% 0% 0% 0%;
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      height: 200px;
-      width: 200px;
+      height: 130px;
+      width: 130px;
       background-color: rgba(0, 0, 0, 0.623);
   }
   #newContent_id1{
       
-      margin: 0px 50px 50px 50px;
-      height: 200px;
-      width: 200px;
+      margin: 1%;
+      height: 130px;
+      width: 130px;
       background-size: 100%;
       background-repeat: no-repeat;
       background-image: url("../asset/UrbanIndex.svg");
@@ -1602,14 +1604,14 @@ margin: 0% 0% 0% 0%;
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      height: 200px;
-      width: 200px;
+      height: 130px;
+      width: 130px;
       background-color: rgba(0, 0, 0, 0.623);
   }
   #newContent_id2{
-      margin: 0px 50px 50px 50px;
-      height: 200px;
-      width: 200px;
+      margin: 1%;
+      height: 130px;
+      width: 130px;
       background-size: 100%;
      /*  background-color: #F93400; */
       background-repeat: no-repeat;
@@ -1623,14 +1625,14 @@ margin: 0% 0% 0% 0%;
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      height: 200px;
-      width: 200px;
+      height: 130px;
+      width: 130px;
       background-color: rgba(0, 0, 0, 0.623);
   }
   #newContent_id3{
-      margin: 0px 50px 50px 50px;
-      height: 200px;
-      width: 200px;
+      margin: 1%;
+      height: 130px;
+      width: 130px;
       background-size: 100%;
       background-repeat: no-repeat;
       background-image: url("../asset/Inktober.svg");
@@ -1662,12 +1664,64 @@ margin: 0% 0% 0% 0%;
 
 
 }
+@media only screen and (max-width:375px) {
+  #newProject{
+    font-size: 18px;
+    margin: 0% 0%;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+  
+  
+  
+  #lpropose{
+    padding: 1% 0%;
+    margin: 0%;
+  }
+
+.blocMenus{
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    background-color: rgb(0, 0, 0);
+    width: 150px;
+    height: 150px;
+}
+}
 
 @media only screen and (max-width:320px) {
+  #lpropose{
+    padding: 0%;
+  }
+  
   #part1{
       background-image: none;
   }
-  
+  .blocMenus{
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    background-color: rgb(0, 0, 0);
+    width: 140px;
+    height: 140px;
+}
+
 }
 
 /*FONTS*/
