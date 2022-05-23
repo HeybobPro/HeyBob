@@ -859,6 +859,7 @@
   }
   
  .blocMenus{
+      text-align: center;
       font-size: 40px;
       display: flex;
       flex-direction: row;
