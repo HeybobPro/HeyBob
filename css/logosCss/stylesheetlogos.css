@@ -123,46 +123,58 @@
     #logo5{
         width: 600px;
         height: 600px;
-        background-image: url("../../asset/lcf.png");
+        background-image: url("../../asset/Group\ 157.png");
         background-size: 100%;
     }
     #logo6{
         width: 600px;
         height: 600px;
-        background-image: url("../../asset/higgins.png");
+        background-image: url("../../asset/full_logo_HD.png");
         background-size: 100%;
     }
     #logo7{
         width: 600px;
         height: 600px;
-        background-image: url("../../asset/madinina.png");
+        background-image: url("../../asset/lcf.png");
         background-size: 100%;
     }
     #logo8{
         width: 600px;
         height: 600px;
-        background-image: url("../../asset/arum.png");
+        background-image: url("../../asset/higgins.png");
         background-size: 100%;
     }
     #logo9{
         width: 600px;
         height: 600px;
-        background-image: url("../../asset/lepetitshop.png");
+        background-image: url("../../asset/madinina.png");
         background-size: 100%;
     }
     #logo10{
         width: 600px;
         height: 600px;
-        background-image: url("../../asset/communauty.png");
+        background-image: url("../../asset/arum.png ");
         background-size: 100%;
     }
     #logo11{
         width: 600px;
         height: 600px;
-        background-image: url("../../asset/uni.png");
+        background-image: url("../../asset/lepetitshop.png");
         background-size: 100%;
     }
     #logo12{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/communauty.png");
+        background-size: 100%;
+    }
+    #logo13{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/uni.png");
+        background-size: 100%;
+    }
+    #logo14{
         width: 600px;
         height: 600px;
         background-image: url("../../asset/local.png");
@@ -171,22 +183,20 @@
         align-items: center;
         justify-content: center;
     }
-                    #backgroundLogo12{
+                    #addLogo14{
                         width: 300px;
                         height: 300px;
                         background-image: url("../../asset/local2.png");
                         background-size: 100%;
                     }
 
-
-
-    #logo13{
+    #logo15{
         width: 600px;
         height: 600px;
         background-image: url("../../asset/ligo.png");
         background-size: 100%;
     }
-    #logo14{
+    #logo16{
         width: 600px;
         height: 600px;
         background-image: url("../../asset/marcel.png");
@@ -244,8 +254,8 @@
         background-size: 100%;
         margin: 1%;
        }
-    #printlayout{
-        background-image: url("../../asset/GVine.png");
+    #com{
+        background-image: url("../../asset/freshjuice.png");
         background-position: 100% 100%;
         background-size: 100%;
         margin: 1%;
@@ -380,46 +390,58 @@
     #logo5{
         width: 500px;
         height: 500px;
-        background-image: url("../../asset/lcf.png");
+        background-image: url("../../asset/Group\ 157.png");
         background-size: 100%;
     }
     #logo6{
         width: 500px;
         height: 500px;
-        background-image: url("../../asset/higgins.png");
+        background-image: url("../../asset/full_logo_HD.png");
         background-size: 100%;
     }
     #logo7{
         width: 500px;
         height: 500px;
-        background-image: url("../../asset/madinina.png");
+        background-image: url("../../asset/lcf.png");
         background-size: 100%;
     }
     #logo8{
         width: 500px;
         height: 500px;
-        background-image: url("../../asset/arum.png");
+        background-image: url("../../asset/higgins.png");
         background-size: 100%;
     }
     #logo9{
         width: 500px;
         height: 500px;
-        background-image: url("../../asset/lepetitshop.png");
+        background-image: url("../../asset/madinina.png");
         background-size: 100%;
     }
     #logo10{
         width: 500px;
         height: 500px;
-        background-image: url("../../asset/communauty.png");
+        background-image: url("../../asset/arum.png ");
         background-size: 100%;
     }
     #logo11{
         width: 500px;
         height: 500px;
-        background-image: url("../../asset/uni.png");
+        background-image: url("../../asset/lepetitshop.png");
         background-size: 100%;
     }
     #logo12{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/communauty.png");
+        background-size: 100%;
+    }
+    #logo13{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/uni.png");
+        background-size: 100%;
+    }
+    #logo14{
         width: 500px;
         height: 500px;
         background-image: url("../../asset/local.png");
@@ -428,22 +450,20 @@
         align-items: center;
         justify-content: center;
     }
-                    #backgroundLogo12{
+                    #addLogo14{
                         width: 250px;
                         height: 250px;
                         background-image: url("../../asset/local2.png");
                         background-size: 100%;
                     }
 
-
-
-    #logo13{
+    #logo15{
         width: 500px;
         height: 500px;
         background-image: url("../../asset/ligo.png");
         background-size: 100%;
     }
-    #logo14{
+    #logo16{
         width: 500px;
         height: 500px;
         background-image: url("../../asset/marcel.png");
@@ -501,8 +521,8 @@
     background-size: 100%;
     margin: 1%;
    }
-#printlayout{
-    background-image: url("../../asset/GVine.png");
+#com{
+    background-image: url("../../asset/freshjuice.png");
     background-position: 100% 100%;
     background-size: 100%;
     margin: 1%;
@@ -640,46 +660,58 @@
     #logo5{
         width: 325px;
         height: 325px;
-        background-image: url("../../asset/lcf.png");
+        background-image: url("../../asset/Group\ 157.png");
         background-size: 100%;
     }
     #logo6{
         width: 325px;
         height: 325px;
-        background-image: url("../../asset/higgins.png");
+        background-image: url("../../asset/full_logo_HD.png");
         background-size: 100%;
     }
     #logo7{
         width: 325px;
         height: 325px;
-        background-image: url("../../asset/madinina.png");
+        background-image: url("../../asset/lcf.png");
         background-size: 100%;
     }
     #logo8{
         width: 325px;
         height: 325px;
-        background-image: url("../../asset/arum.png");
+        background-image: url("../../asset/higgins.png");
         background-size: 100%;
     }
     #logo9{
         width: 325px;
         height: 325px;
-        background-image: url("../../asset/lepetitshop.png");
+        background-image: url("../../asset/madinina.png");
         background-size: 100%;
     }
     #logo10{
         width: 325px;
         height: 325px;
-        background-image: url("../../asset/communauty.png");
+        background-image: url("../../asset/arum.png ");
         background-size: 100%;
     }
     #logo11{
         width: 325px;
         height: 325px;
-        background-image: url("../../asset/uni.png");
+        background-image: url("../../asset/lepetitshop.png");
         background-size: 100%;
     }
     #logo12{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/communauty.png");
+        background-size: 100%;
+    }
+    #logo13{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/uni.png");
+        background-size: 100%;
+    }
+    #logo14{
         width: 325px;
         height: 325px;
         background-image: url("../../asset/local.png");
@@ -688,22 +720,20 @@
         align-items: center;
         justify-content: center;
     }
-                    #backgroundLogo12{
+                    #addLogo14{
                         width: 162px;
                         height: 162px;
                         background-image: url("../../asset/local2.png");
                         background-size: 100%;
                     }
 
-
-
-    #logo13{
+    #logo15{
         width: 325px;
         height: 325px;
         background-image: url("../../asset/ligo.png");
         background-size: 100%;
     }
-    #logo14{
+    #logo16{
         width: 325px;
         height: 325px;
         background-image: url("../../asset/marcel.png");
@@ -762,8 +792,8 @@
     background-size: 100%;
     margin: 1%;
    }
-#printlayout{
-    background-image: url("../../asset/GVine.png");
+#com{
+    background-image: url("../../asset/freshjuice.png");
     background-position: 100% 100%;
     background-size: 100%;
     margin: 1%;
@@ -897,46 +927,58 @@
     #logo5{
         width: 250px;
         height: 250px;
-        background-image: url("../../asset/lcf.png");
+        background-image: url("../../asset/Group\ 157.png");
         background-size: 100%;
     }
     #logo6{
         width: 250px;
         height: 250px;
-        background-image: url("../../asset/higgins.png");
+        background-image: url("../../asset/full_logo_HD.png");
         background-size: 100%;
     }
     #logo7{
         width: 250px;
         height: 250px;
-        background-image: url("../../asset/madinina.png");
+        background-image: url("../../asset/lcf.png");
         background-size: 100%;
     }
     #logo8{
         width: 250px;
         height: 250px;
-        background-image: url("../../asset/arum.png");
+        background-image: url("../../asset/higgins.png");
         background-size: 100%;
     }
     #logo9{
         width: 250px;
         height: 250px;
-        background-image: url("../../asset/lepetitshop.png");
+        background-image: url("../../asset/madinina.png");
         background-size: 100%;
     }
     #logo10{
         width: 250px;
         height: 250px;
-        background-image: url("../../asset/communauty.png");
+        background-image: url("../../asset/arum.png ");
         background-size: 100%;
     }
     #logo11{
         width: 250px;
         height: 250px;
-        background-image: url("../../asset/uni.png");
+        background-image: url("../../asset/lepetitshop.png");
         background-size: 100%;
     }
     #logo12{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/communauty.png");
+        background-size: 100%;
+    }
+    #logo13{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/uni.png");
+        background-size: 100%;
+    }
+    #logo14{
         width: 250px;
         height: 250px;
         background-image: url("../../asset/local.png");
@@ -945,22 +987,20 @@
         align-items: center;
         justify-content: center;
     }
-                    #backgroundLogo12{
+                    #adddLogo14{
                         width: 125px;
                         height: 125px;
                         background-image: url("../../asset/local2.png");
                         background-size: 100%;
                     }
 
-
-
-    #logo13{
+    #logo15{
         width: 250px;
         height: 250px;
         background-image: url("../../asset/ligo.png");
         background-size: 100%;
     }
-    #logo14{
+    #logo16{
         width: 250px;
         height: 250px;
         background-image: url("../../asset/marcel.png");
@@ -1017,8 +1057,8 @@
     background-size: 100%;
     margin: 1%;
    }
-#printlayout{
-    background-image: url("../../asset/GVine.png");
+#com{
+    background-image: url("../../asset/freshjuice.png");
     background-position: 100% 100%;
     background-size: 100%;
     margin: 1%;
@@ -1125,6 +1165,7 @@
         height: 125px;
     }
 
+   
     #logo1{
         width: 125px;
         height: 125px;
@@ -1154,46 +1195,58 @@
     #logo5{
         width: 125px;
         height: 125px;
-        background-image: url("../../asset/lcf.png");
+        background-image: url("../../asset/Group\ 157.png");
         background-size: 100%;
     }
     #logo6{
         width: 125px;
         height: 125px;
-        background-image: url("../../asset/higgins.png");
+        background-image: url("../../asset/full_logo_HD.png");
         background-size: 100%;
     }
     #logo7{
         width: 125px;
         height: 125px;
-        background-image: url("../../asset/madinina.png");
+        background-image: url("../../asset/lcf.png");
         background-size: 100%;
     }
     #logo8{
         width: 125px;
         height: 125px;
-        background-image: url("../../asset/arum.png");
+        background-image: url("../../asset/higgins.png");
         background-size: 100%;
     }
     #logo9{
         width: 125px;
         height: 125px;
-        background-image: url("../../asset/lepetitshop.png");
+        background-image: url("../../asset/madinina.png");
         background-size: 100%;
     }
     #logo10{
         width: 125px;
         height: 125px;
-        background-image: url("../../asset/communauty.png");
+        background-image: url("../../asset/arum.png ");
         background-size: 100%;
     }
     #logo11{
         width: 125px;
         height: 125px;
-        background-image: url("../../asset/uni.png");
+        background-image: url("../../asset/lepetitshop.png");
         background-size: 100%;
     }
     #logo12{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/communauty.png");
+        background-size: 100%;
+    }
+    #logo13{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/uni.png");
+        background-size: 100%;
+    }
+    #logo14{
         width: 125px;
         height: 125px;
         background-image: url("../../asset/local.png");
@@ -1202,22 +1255,20 @@
         align-items: center;
         justify-content: center;
     }
-                    #backgroundLogo12{
-                        width: 72px;
-                        height: 72px;
+                    #addLogo14{
+                        width: 62px;
+                        height: 62px;
                         background-image: url("../../asset/local2.png");
                         background-size: 100%;
                     }
 
-
-
-    #logo13{
+    #logo15{
         width: 125px;
         height: 125px;
         background-image: url("../../asset/ligo.png");
         background-size: 100%;
     }
-    #logo14{
+    #logo16{
         width: 125px;
         height: 125px;
         background-image: url("../../asset/marcel.png");
@@ -1275,8 +1326,8 @@
     background-size: 100%;
     margin: 1%;
    }
-#printlayout{
-    background-image: url("../../asset/GVine.png");
+#com{
+    background-image: url("../../asset/freshjuice.png");
     background-position: 100% 100%;
     background-size: 100%;
     margin: 1%;

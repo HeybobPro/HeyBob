@@ -1,0 +1,1541 @@
+*{
+    scroll-behavior: smooth;
+  }
+
+
+@media only screen and (min-width:1441px) {
+
+     
+     a{
+         color: black;
+        text-decoration: none;
+       }
+    header{
+        margin: 0% 0% 5% 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+  
+    h1{
+        font-family: 'kenokylight';
+        letter-spacing: 3px;
+        color: #FF0045;
+        font-size: 100px;
+    }
+
+    header p{
+        font-family: 'object_sansregular';
+        margin: 0%;
+        font-size: 50px;
+    }
+
+
+    nav{
+        font-family: 'object_sansregular';
+        margin: 0% 16% 0% 16%;
+        mix-blend-mode: normal;
+        z-index: 100;
+        top: 3%;
+        position: sticky;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+       }
+       
+
+    #headerHB img{
+        color: rgb(41, 0, 22);
+        mix-blend-mode: luminosity;
+        z-index: 100;
+        cursor: default;
+        display: flex;
+        flex-direction: row;
+        width: 175px;
+    }
+    #headerC{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+    h2{
+        font-size: 43px;
+    }
+
+    h3{
+        font-size: 40px;
+    }
+    
+    /* LIBRARY COMMUNICATION /_________________________________________________/*/
+    #library{
+        background-color: rgb(255, 255, 255);
+        margin: 0% 5% 0% 5%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: center;
+        align-items: stretch;
+        align-content: space-around;
+
+    }
+
+    .content{
+        margin: 2%;
+        font-size: 35px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 600px;
+        height: 600px;
+    }
+
+    #image1{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/luvya.png");
+        background-size: 100%;
+    }
+
+    #image2{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/luvia_decli_main.png");
+        background-size: 100%;
+    }
+
+    #image3{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/luvya1.png");
+        background-size: 100%;
+    }
+    #image4{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/luvya4.png");
+        background-size: 100%;
+    }
+    #image5{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/luvya3.png");
+        background-size: 100%;
+    }
+    #image6{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/luvya2.png");
+        background-size: 100%;
+    }
+    #image7{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/luvia_decli_3.png");
+        background-size: 100%;
+    }
+    #image8{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/luvia_decli_2.png");
+        background-size: 100%;
+    }
+    #image9{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/luvia_decli_1.png");
+        background-size: 100%;
+    }
+    #image10{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/fichier_source.png");
+        background-size: 100%;
+    }
+    #image11{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/freshjuice.png");
+        background-size: 100%;
+    }
+    #image12{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/1er_post_LPS_1080x1080.png");
+        background-size: 100%;
+    }
+  
+    #image13{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/post_benef_2.png");
+        background-size: 100%;
+    }
+    #image14{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/post_benef_3.png");
+        background-size: 100%;
+    }
+    #image15{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/post_benef_1.png");
+        background-size: 100%;
+    }
+    #image16{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/Mask\ Group\ 2.png");
+        background-size: 100%;
+    }
+    #image17{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/Mask\ Group\ 3.png");
+        background-size: 100%;
+    }
+    #image18{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/Mask\ Group\ 5.png");
+        background-size: 100%;
+    }
+    #image19{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/Mask\ Group\ 6.png");
+        background-size: 100%;
+    }
+    #image20{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/Mask\ Group\ 7.png");
+        background-size: 100%;
+    }
+    #image21{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/proposition_subway.png");
+        background-size: 100%;
+    }
+    #image22{
+        width: 600px;
+        height: 600px;
+        background-image: url("../../asset/proposition_carre2.png");
+        background-size: 100%;
+    }
+    /* LIBRARY INDEX */
+    #propose{
+        font-family: 'object_sansregular';
+        padding: 10% 0%;
+          background-color: rgb(255, 255, 255);
+          background-image: url("../../asset/heart.png");
+          background-size: 7%;
+          background-repeat: no-repeat;
+          background-position: 50% 50%;
+       }
+      #propose p{
+        font-size: 25px;
+        text-align: center;
+          margin: 0%;
+      }
+
+
+    #libraryIndex{
+        font-family: 'object_sansregular';
+        background-color: rgb(255, 255, 255);
+        margin: 0% 0% 0% 0%;
+        padding: 0% 0%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: center;
+        align-items: stretch;
+        align-content: space-around;
+
+    }
+   #library a{
+        cursor: default;
+    }
+    
+   .blocMenus{
+        font-size: 45px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 400px;
+        height: 400px;
+    }
+    #motionsdesign{
+        background-image: url("../../asset/bitogether.png");
+        background-position: 100% 100%;
+        background-size: 100%;
+        margin: 1%;
+       }
+    #logos{
+        text-align: center;
+        background-image: url("../../asset/bobby.png");
+        background-position: 100% 100%;
+        background-size: 100%;
+        margin: 1%;
+     }
+    #printlayout{
+        background-image: url("../../asset/GVine.png");
+        background-position: 100% 100%;
+        background-size: 100%;
+        margin: 1%;
+       }
+    
+    
+}
+@media only screen and (max-width:1440px) {
+
+     
+     a{
+         color: black;
+        text-decoration: none;
+       }
+       header{
+        margin: 0% 0% 5% 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+  
+    h1{
+        letter-spacing: 3px;
+        font-family: 'kenokyLight';
+        color: #FF0045;
+        font-size: 100px;
+    }
+
+    header p{
+        font-family: 'object_sansregular';
+        margin: 0%;
+        font-size: 50px;
+    }
+
+
+
+    nav{
+        font-family: 'object_sansregular';
+        padding: 3% 0% 3% 0%;
+        margin: 0% 14% 0% 14%;
+        mix-blend-mode: normal;
+        z-index: 100;
+        top: 3%;
+        position: sticky;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+       }
+       
+
+    #headerHB img{
+        color: rgb(41, 0, 22);
+        mix-blend-mode: luminosity;
+        z-index: 100;
+        cursor: default;
+        display: flex;
+        flex-direction: row;
+        width: 175px;
+    }
+    #headerC{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+    h2{
+        font-size: 43px;
+    }
+
+    h3{
+        font-size: 40px;
+    }
+    
+   #library{
+        background-color: rgb(255, 255, 255);
+        margin: 0% 5% 0% 5%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: center;
+        align-items: stretch;
+        align-content: space-around;
+
+    }
+
+    .content{
+        margin: 2%;
+        font-size: 35px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 500px;
+        height: 500px;
+    }
+    #image1{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/luvya.png");
+        background-size: 100%;
+    }
+
+    #image2{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/luvia_decli_main.png");
+        background-size: 100%;
+    }
+
+    #image3{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/luvya1.png");
+        background-size: 100%;
+    }
+    #image4{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/luvya4.png");
+        background-size: 100%;
+    }
+    #image5{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/luvya3.png");
+        background-size: 100%;
+    }
+    #image6{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/luvya2.png");
+        background-size: 100%;
+    }
+    #image7{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/luvia_decli_3.png");
+        background-size: 100%;
+    }
+    #image8{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/luvia_decli_2.png");
+        background-size: 100%;
+    }
+    #image9{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/luvia_decli_1.png");
+        background-size: 100%;
+    }
+    #image10{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/fichier_source.png");
+        background-size: 100%;
+    }
+    #image11{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/freshjuice.png");
+        background-size: 100%;
+    }
+    #image12{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/1er_post_LPS_1080x1080.png");
+        background-size: 100%;
+    }
+  
+    #image13{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/post_benef_2.png");
+        background-size: 100%;
+    }
+    #image14{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/post_benef_3.png");
+        background-size: 100%;
+    }
+    #image15{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/post_benef_1.png");
+        background-size: 100%;
+    }
+    #image16{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/Mask\ Group\ 2.png");
+        background-size: 100%;
+    }
+    #image17{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/Mask\ Group\ 3.png");
+        background-size: 100%;
+    }
+    #image18{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/Mask\ Group\ 5.png");
+        background-size: 100%;
+    }
+    #image19{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/Mask\ Group\ 6.png");
+        background-size: 100%;
+    }
+    #image20{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/Mask\ Group\ 7.png");
+        background-size: 100%;
+    }
+    #image21{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/proposition_subway.png");
+        background-size: 100%;
+    }
+    #image22{
+        width: 500px;
+        height: 500px;
+        background-image: url("../../asset/proposition_carre2.png");
+        background-size: 100%;
+    }
+    /* LIBRARY INDEX */
+    #propose{
+        font-family: 'object_sansregular';
+        padding: 10% 0%;
+          background-color: rgb(255, 255, 255);
+          background-image: url("../../asset/heart.png");
+          background-size: 7%;
+          background-repeat: no-repeat;
+          background-position: 50% 50%;
+       }
+      #propose p{
+        font-size: 25px;
+        text-align: center;
+          margin: 0%;
+      }
+
+
+    #libraryIndex{
+        font-family: 'object_sansregular';
+        background-color: rgb(255, 255, 255);
+        margin: 0% 0% 0% 0%;
+        padding: 0% 0%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: center;
+        align-items: stretch;
+        align-content: space-around;
+
+    }
+   #library a{
+        cursor: default;
+    }
+    
+   .blocMenus{
+        font-size: 45px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 400px;
+        height: 400px;
+    }
+    #motionsdesign{
+        background-image: url("../../asset/bitogether.png");
+        background-position: 100% 100%;
+        background-size: 100%;
+        margin: 1%;
+       }
+    #logos{
+        text-align: center;
+        background-image: url("../../asset/bobby.png");
+        background-position: 100% 100%;
+        background-size: 100%;
+        margin: 1%;
+     }
+    #printlayout{
+        background-image: url("../../asset/GVine.png");
+        background-position: 100% 100%;
+        background-size: 100%;
+        margin: 1%;
+       }
+  
+
+}   
+@media only screen and (max-width:1024px) {
+
+    body{
+        font-family: 'object_sansregular';
+     }
+     
+     a{
+         color: black;
+        text-decoration: none;
+       }
+       header{
+        margin: 0% 0% 5% 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+  
+    h1{
+        color: #FF0045;
+        font-size: 100px;
+    }
+
+    header p{
+        margin: 0%;
+        font-size: 50px;
+    }
+
+
+
+    nav{
+        padding: 3% 0% 3% 0%;
+        margin: 0% 16% 0% 16%;
+        mix-blend-mode: normal;
+        z-index: 100;
+        top: 3%;
+        position: sticky;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+       }
+       
+
+    #headerHB img{
+        color: rgb(41, 0, 22);
+        mix-blend-mode: luminosity;
+        z-index: 100;
+        cursor: default;
+        display: flex;
+        flex-direction: row;
+        width: 175px;
+    }
+    #headerC{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+    h2{
+        font-size: 43px;
+    }
+
+    h3{
+        font-size: 40px;
+    }
+    
+    #library{
+        background-color: rgb(255, 255, 255);
+        margin: 0% 5% 0% 5%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: center;
+        align-items: stretch;
+        align-content: space-around;
+
+    }
+
+    .content{
+        margin: 2%;
+        font-size: 35px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 325px;
+        height: 325px;
+    }
+    #image1{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/luvya.png");
+        background-size: 100%;
+    }
+
+    #image2{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/luvia_decli_main.png");
+        background-size: 100%;
+    }
+
+    #image3{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/luvya1.png");
+        background-size: 100%;
+    }
+    #image4{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/luvya4.png");
+        background-size: 100%;
+    }
+    #image5{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/luvya3.png");
+        background-size: 100%;
+    }
+    #image6{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/luvya2.png");
+        background-size: 100%;
+    }
+    #image7{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/luvia_decli_3.png");
+        background-size: 100%;
+    }
+    #image8{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/luvia_decli_2.png");
+        background-size: 100%;
+    }
+    #image9{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/luvia_decli_1.png");
+        background-size: 100%;
+    }
+    #image10{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/fichier_source.png");
+        background-size: 100%;
+    }
+    #image11{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/freshjuice.png");
+        background-size: 100%;
+    }
+    #image12{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/1er_post_LPS_1080x1080.png");
+        background-size: 100%;
+    }
+  
+    #image13{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/post_benef_2.png");
+        background-size: 100%;
+    } #image14{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/post_benef_3.png");
+        background-size: 100%;
+    }
+    #image15{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/post_benef_1.png");
+        background-size: 100%;
+    }
+    #image16{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/Mask\ Group\ 2.png");
+        background-size: 100%;
+    }
+    #image17{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/Mask\ Group\ 3.png");
+        background-size: 100%;
+    }
+    #image18{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/Mask\ Group\ 5.png");
+        background-size: 100%;
+    }
+    #image19{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/Mask\ Group\ 6.png");
+        background-size: 100%;
+    }
+    #image20{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/Mask\ Group\ 7.png");
+        background-size: 100%;
+    }
+    #image21{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/proposition_subway.png");
+        background-size: 100%;
+    }
+    #image22{
+        width: 325px;
+        height: 325px;
+        background-image: url("../../asset/proposition_carre2.png");
+        background-size: 100%;
+    }
+    /* LIBRARY INDEX */
+    #propose{
+        font-family: 'object_sansregular';
+        padding: 10% 0%;
+          background-color: rgb(255, 255, 255);
+          background-image: url("../../asset/heart.png");
+          background-size: 7%;
+          background-repeat: no-repeat;
+          background-position: 50% 50%;
+       }
+      #propose p{
+        font-size: 25px;
+        text-align: center;
+          margin: 0%;
+      }
+
+
+    #libraryIndex{
+        font-family: 'object_sansregular';
+        background-color: rgb(255, 255, 255);
+        margin: 0% 0% 0% 0%;
+        padding: 0% 0%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: center;
+        align-items: stretch;
+        align-content: space-around;
+
+    }
+   #library a{
+        cursor: default;
+    }
+    
+   .blocMenus{
+        font-size: 45px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 250px;
+        height: 250px;
+    }
+    #motionsdesign{
+        background-image: url("../../asset/bitogether.png");
+        background-position: 100% 100%;
+        background-size: 100%;
+        margin: 1%;
+       }
+    #logos{
+        text-align: center;
+        background-image: url("../../asset/bobby.png");
+        background-position: 100% 100%;
+        background-size: 100%;
+        margin: 1%;
+     }
+    #printlayout{
+        background-image: url("../../asset/GVine.png");
+        background-position: 100% 100%;
+        background-size: 100%;
+        margin: 1%;
+       }
+  
+
+}   
+
+@media only screen and (max-width:768px) {
+
+     
+     a{
+         color: black;
+        text-decoration: none;
+       }
+       header{
+        margin: 0% 0% 5% 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+  
+    h1{
+        color: #FF0045;
+        font-size: 70px;
+    }
+
+    header p{
+        margin: 0%;
+        font-size: 50px;
+    }
+
+
+
+    nav{
+        padding: 3% 0% 3% 0%;
+        margin: 0% 16% 0% 16%;
+        mix-blend-mode: normal;
+        z-index: 100;
+        top: 3%;
+        position: sticky;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-end;
+       }
+       
+
+    #headerHB img{
+        color: rgb(41, 0, 22);
+        mix-blend-mode: luminosity;
+        z-index: 100;
+        cursor: default;
+        display: flex;
+        flex-direction: row;
+        width: 175px;
+    }
+    #headerC{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+      }
+    h2{
+        margin: 0%;
+        font-size: 43px;
+    }
+
+    h3{
+        margin: 0%;
+        font-size: 22px;
+    }
+    
+    /* LIBRARY COMMUNICATION /_________________________________________________/*/
+    #library{
+        background-color: rgb(255, 255, 255);
+        margin: 0% 5% 0% 5%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: center;
+        align-items: stretch;
+        align-content: space-around;
+
+    }
+
+    .content{
+        margin: 2%;
+        font-size: 35px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 250px;
+        height: 250px;
+    }
+    #image1{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/luvya.png");
+        background-size: 100%;
+    }
+
+    #image2{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/luvia_decli_main.png");
+        background-size: 100%;
+    }
+
+    #image3{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/luvya1.png");
+        background-size: 100%;
+    }
+    #image4{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/luvya4.png");
+        background-size: 100%;
+    }
+    #image5{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/luvya3.png");
+        background-size: 100%;
+    }
+    #image6{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/luvya2.png");
+        background-size: 100%;
+    }
+    #image7{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/luvia_decli_3.png");
+        background-size: 100%;
+    }
+    #image8{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/luvia_decli_2.png");
+        background-size: 100%;
+    }
+    #image9{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/luvia_decli_1.png");
+        background-size: 100%;
+    }
+    #image10{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/fichier_source.png");
+        background-size: 100%;
+    }
+    #image11{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/freshjuice.png");
+        background-size: 100%;
+    }
+    #image12{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/1er_post_LPS_1080x1080.png");
+        background-size: 100%;
+    }
+  
+    #image13{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/post_benef_2.png");
+        background-size: 100%;
+    }
+    #image14{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/post_benef_3.png");
+        background-size: 100%;
+    }
+    #image15{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/post_benef_1.png");
+        background-size: 100%;
+    }
+    #image16{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/Mask\ Group\ 2.png");
+        background-size: 100%;
+    }
+    #image17{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/Mask\ Group\ 3.png");
+        background-size: 100%;
+    }
+    #image18{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/Mask\ Group\ 5.png");
+        background-size: 100%;
+    }
+    #image19{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/Mask\ Group\ 6.png");
+        background-size: 100%;
+    }
+    #image20{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/Mask\ Group\ 7.png");
+        background-size: 100%;
+    }
+    #image21{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/proposition_subway.png");
+        background-size: 100%;
+    }
+    #image22{
+        width: 250px;
+        height: 250px;
+        background-image: url("../../asset/proposition_carre2.png");
+        background-size: 100%;
+    }
+    /* LIBRARY INDEX */
+    #propose{
+        font-family: 'object_sansregular';
+        padding: 10% 0%;
+          background-color: rgb(255, 255, 255);
+          background-image: url("../../asset/heart.png");
+          background-size: 7%;
+          background-repeat: no-repeat;
+          background-position: 50% 50%;
+       }
+      #propose p{
+        font-size: 25px;
+        text-align: center;
+          margin: 0%;
+      }
+
+
+    #libraryIndex{
+        font-family: 'object_sansregular';
+        background-color: rgb(255, 255, 255);
+        margin: 0% 0% 0% 0%;
+        padding: 5% 0%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: center;
+        align-items: stretch;
+        align-content: space-around;
+
+    }
+   #library a{
+        cursor: default;
+    }
+    
+   .blocMenus{
+        font-size: 45px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 200px;
+        height: 200px;
+    }
+    #motionsdesign{
+        background-image: url("../../asset/bitogether.png");
+        background-position: 100% 100%;
+        background-size: 100%;
+        margin: 1%;
+       }
+    #logos{
+        text-align: center;
+        background-image: url("../../asset/bobby.png");
+        background-position: 100% 100%;
+        background-size: 100%;
+        margin: 1%;
+     }
+    #printlayout{
+        background-image: url("../../asset/GVine.png");
+        background-position: 100% 100%;
+        background-size: 100%;
+        margin: 1%;
+       }
+  
+}    
+
+@media only screen and (max-width:425px) {
+
+    body{
+        font-family: 'object_sansregular';
+     }
+     
+     a{
+         color: black;
+        text-decoration: none;
+       }
+       header{
+        margin: 0% 0% 5% 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+  
+    h1{
+        color: #FF0045;
+        font-size: 30px;
+    }
+
+    header p{
+        margin: 0%;
+        font-size: 25px;
+    }
+
+
+    nav{
+        padding: 0% 0% 5% 0%;
+        margin: 0% 19% 0% 19%;
+        mix-blend-mode: normal;
+        z-index: 100;
+        top: 3%;
+        position: sticky;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-end;
+       }
+       
+
+    #headerHB img{
+        color: rgb(41, 0, 22);
+        mix-blend-mode: luminosity;
+        z-index: 100;
+        cursor: default;
+        display: flex;
+        flex-direction: row;
+        width: 80px;
+    }
+    #headerC{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+      }
+    h2{
+        margin: 0%;
+        font-size: 23px;
+    }
+
+    h3{
+        margin: 0%;
+        font-size: 12px;
+    }
+    
+      /* LIBRARY COMMUNICATION /_________________________________________________/*/
+      #library{
+        background-color: rgb(255, 255, 255);
+        margin: 0% 5% 0% 5%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: center;
+        align-items: stretch;
+        align-content: space-around;
+
+    }
+
+    .content{
+        margin: 2%;
+        font-size: 35px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 125px;
+        height: 125px;
+    }
+    #image1{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/luvya.png");
+        background-size: 100%;
+    }
+
+    #image2{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/luvia_decli_main.png");
+        background-size: 100%;
+    }
+
+    #image3{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/luvya1.png");
+        background-size: 100%;
+    }
+    #image4{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/luvya4.png");
+        background-size: 100%;
+    }
+    #image5{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/luvya3.png");
+        background-size: 100%;
+    }
+    #image6{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/luvya2.png");
+        background-size: 100%;
+    }
+    #image7{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/luvia_decli_3.png");
+        background-size: 100%;
+    }
+    #image8{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/luvia_decli_2.png");
+        background-size: 100%;
+    }
+    #image9{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/luvia_decli_1.png");
+        background-size: 100%;
+    }
+    #image10{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/fichier_source.png");
+        background-size: 100%;
+    }
+    #image11{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/freshjuice.png");
+        background-size: 100%;
+    }
+    #image12{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/1er_post_LPS_1080x1080.png");
+        background-size: 100%;
+    }
+  
+    #image13{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/post_benef_2.png");
+        background-size: 100%;
+    }
+    #image14{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/post_benef_3.png");
+        background-size: 100%;
+    }
+    #image15{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/post_benef_1.png");
+        background-size: 100%;
+    }
+    #image16{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/Mask\ Group\ 2.png");
+        background-size: 100%;
+    }
+    #image17{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/Mask\ Group\ 3.png");
+        background-size: 100%;
+    }
+    #image18{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/Mask\ Group\ 5.png");
+        background-size: 100%;
+    }
+    #image19{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/Mask\ Group\ 6.png");
+        background-size: 100%;
+    }
+    #image20{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/Mask\ Group\ 7.png");
+        background-size: 100%;
+    }
+    #image21{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/proposition_subway.png");
+        background-size: 100%;
+    }
+    #image22{
+        width: 125px;
+        height: 125px;
+        background-image: url("../../asset/proposition_carre2.png");
+        background-size: 100%;
+    }
+    /* LIBRARY INDEX */
+    #propose{
+        font-family: 'object_sansregular';
+        padding: 10% 0%;
+          background-color: rgb(255, 255, 255);
+          background-image: url("../../asset/heart.png");
+          background-size: 7%;
+          background-repeat: no-repeat;
+          background-position: 50% 50%;
+       }
+      #propose p{
+        font-size: 25px;
+        text-align: center;
+          margin: 0%;
+      }
+
+
+    #libraryIndex{
+        font-family: 'object_sansregular';
+        background-color: rgb(255, 255, 255);
+        /* margin: 5% 0% 5% 0%; */
+        padding: 0% 0% 20% 0%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: center;
+        align-items: stretch;
+        align-content: space-around;
+
+    }
+   #library a{
+        cursor: default;
+    }
+    
+   .blocMenus{
+        font-size: 25px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 100px;
+        height: 100px;
+    }
+    #motionsdesign{
+        background-image: url("../../asset/bitogether.png");
+        background-position: 100% 100%;
+        background-size: 100%;
+        margin: 1%;
+       }
+    #logos{
+        text-align: center;
+        background-image: url("../../asset/bobby.png");
+        background-position: 100% 100%;
+        background-size: 100%;
+        margin: 1%;
+     }
+    #printlayout{
+        background-image: url("../../asset/GVine.png");
+        background-position: 100% 100%;
+        background-size: 100%;
+        margin: 1%;
+       }
+}    
+
+
+/*fonts*/
+@font-face {
+    font-family: 'object_sansregular';
+    src: url('../fonts/Regular/objectsans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/Regular/objectsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'kenokylight';
+    src: url('../fonts/Kenokylight/kenokylight-webfont.woff2') format('woff2'),
+         url('../fonts/Kenokylight/kenokylight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* PART ANIMATION */
+/* LOADER */
+#myDiv {
+    z-index: 999999999;
+    display: none;
+  }    
+
+  
+  .transition{
+    
+    position: local;
+    -webkit-animation-name: transition;
+    -webkit-animation-duration: 2s;
+    animation-name: transition;
+    animation-duration: 2s;
+  
+  }
+
+@-webkit-keyframes transition {
+from { opacity:0 } 
+to { opacity:1 }
+}
+
+@keyframes transition { 
+from{ opacity:0 } 
+to{ opacity:1 }
+}
+
+    
+      /* HORIZONTAL RIGHT */
+    .revealHR {
+        transition: 1s all ease;
+        opacity: 0;
+     }
+  
+    .revealHR.active {
+        opacity: 1;
+     } 
+
+     /* HORIZONTAL LEFT */
+     /* _______________ */
+    .revealHL {
+        transition: 1s all ease;
+        opacity: 0;
+  }
+  
+    .revealHL.active {
+        opacity: 1;
+    
+  } 
