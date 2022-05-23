@@ -45,7 +45,7 @@
          justify-content: center;
      }
 
-     #part1{
+     #home{
        background-attachment: fixed;
         background-image: url("../asset/Beauty2.png");
         background-repeat: no-repeat;
@@ -143,7 +143,7 @@
      #library{
          background-color: rgb(255, 255, 255);
          margin: 0% 0% 0% 0%;
-         /* padding: 5% 16% 0% 16%; */
+         padding: 11% 0%;
          display: flex;
          flex-wrap: wrap;
          flex-direction:row;
@@ -1112,7 +1112,7 @@ width: 125px;
     margin: 0% 0%;
      z-index: 100;
      cursor: default;
-      font-size: 13px;
+      font-size: 11px;
       color: rgb(41, 0, 22);
       mix-blend-mode: luminosity;
       font-family: 'object_sansbold';
@@ -1431,7 +1431,7 @@ display: none;
       margin: 0% 0%;
        z-index: 100;
        cursor: default;
-        font-size: 20px;
+        font-size: 16px;
         color: rgb(41, 0, 22);
         mix-blend-mode: luminosity;
         font-family: 'object_sansbold';
@@ -1705,7 +1705,7 @@ margin: 0% 0% 0% 0%;
     padding: 0%;
   }
   
-  #part1{
+  #home{
       background-image: none;
   }
   .blocMenus{
