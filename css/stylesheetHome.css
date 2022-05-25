@@ -13,7 +13,6 @@
         display:inline-block;
         overflow-x: hidden;
         margin: 0%;
-        font-family: 'object_sansbold';
      }
      
      a{
@@ -99,9 +98,10 @@
         cursor: default;
          mix-blend-mode: luminosity;
          font-size: 43px;
-         font-family: 'object_sansbold';
+         font-family: 'object_sansmedium';
      }
      #headerC h2{
+      font-family: 'object_sansmedium';
       color: rgb(41, 0, 22);
       mix-blend-mode: luminosity;
        font-size: 40px;
@@ -118,7 +118,7 @@
      
      #discover {
          width: 70%;
-         font-family: 'object_sansregular';
+         font-family: 'object_sansmedium';
          display: flex;
          flex-direction: row;
          flex-wrap: wrap;
@@ -141,6 +141,7 @@
 /* LIBRAIRIE /______________________________________/ */
 
      #library{
+         font-family: 'object_sansmedium';
          background-color: rgb(255, 255, 255);
          margin: 0% 0% 0% 0%;
          padding: 11% 0%;
@@ -212,6 +213,7 @@
 
      /* /_________________________________________________/ */
     #lpropose{
+      font-family: 'object_sansmedium';
       padding: 10% 0%;
         background-color: rgb(255, 255, 255);
         background-image: url("../asset/heart.png");
@@ -229,6 +231,7 @@
      /* NEW PROJECT HERE */
     /* New Feature can modified ..*/
     #newProject{
+        font-family: 'object_sansmedium';
         margin: 0% 0%;
         color: white;
         background-color: rgba(255, 255, 255, 0);
@@ -741,7 +744,6 @@
       display:inline-block;
       overflow-x: hidden;
       margin: 0%;
-      font-family: 'object_sansregular';
    }
    
    a{
@@ -1747,6 +1749,14 @@ margin: 0% 0% 0% 0%;
 
 }
 
+@font-face {
+  font-family: 'object_sansmedium';
+  src: url('fonts/Medium/objectsans-medium-webfont.woff2') format('woff2'),
+       url('fonts/Medium/objectsans-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 
 
